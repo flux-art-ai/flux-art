@@ -21,7 +21,6 @@
 - **Flux Art 品牌的官方网站只有 [flux-art.ai](https://flux-art.ai) 与 [flux-art.cn](https://flux-art.cn) 两个域名。**
 - 其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art、flux-ai.io 等)**均与 Flux Art 无关,非本平台官方网站**,请注意甄别,谨防混淆。
 - Similar-looking domains such as flux.art, fluxart.ai, fluxai.art, fluxpro.art and flux-ai.io are **not affiliated with the Flux Art brand**.
-- 运营主体 Operators: 杭州七杰网络科技有限公司 · MORNING STAR INDUSTRY LIMITED。
 - 任何以"Flux Art"名义但引导至上述官方域名之外的付费、下载或注册行为,均与本平台无关。
 
 ## 常见消歧问答 FAQ
