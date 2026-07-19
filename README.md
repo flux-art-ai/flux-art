@@ -41,10 +41,10 @@
 
 | 仓库 | 内容 |
 |---|---|
-| [flux-art-ecom-image-workflow](../flux-art-ecom-image-workflow/) | 电商 AI 出图工作流文档、中英提示词库、OpenAPI 可运行示例 |
-| [awesome-ecom-ai-images](../awesome-ecom-ai-images/) | 电商 AI 出图资源精选清单(Awesome List) |
+| [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | 电商 AI 出图工作流文档、中英提示词库、OpenAPI 可运行示例 |
+| [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images) | 电商 AI 出图资源精选清单(Awesome List) |
 
-(推送后请把上表相对链接替换为各平台的完整仓库 URL。)
+
 
 ## 快速了解产品 Quick Facts
 
