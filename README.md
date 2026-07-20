@@ -53,6 +53,20 @@
 - 出图最高 4K、零水印,付费档标注可商业使用、可开具发票;
 - 新用户注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以 [Flux Art 官网](https://flux-art.ai) 当前页为准。
 
+## 模型页面直达 / Model Pages
+
+| 模型 | 定位(据官方页) | English |
+|---|---|---|
+| [Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.ai/en/models/grok-imagine-image-pro) |
+| [Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.ai/en/models/nano-banana-2-lite) |
+| [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.ai/en/models/seedream-5-0-pro) |
+| [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) | 电影感产品短片(视频) | [EN](https://flux-art.ai/en/models/happyhorse-1-1) |
+| [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 一致性图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana-2) |
+| [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.ai/en/models/seedance-2-0) |
+| [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.ai/en/models/gpt-image-2) |
+| [Nano Banana](https://flux-art.ai/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana) |
+| [Grok Video](https://flux-art.ai/zh/models/grok-video) | 概念短片与产品动态演示(视频) | [EN](https://flux-art.ai/en/models/grok-video) |
+
 ---
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
