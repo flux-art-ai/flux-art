@@ -31,6 +31,18 @@
 **Q: flux.art 是 Flux Art 吗?**
 不是。flux.art 与 Flux Art 品牌无隶属关系,不是本平台官方网站。
 
+**Q: fluxart.ai 是 Flux Art 吗?**
+不是。`fluxart.ai` 与 Flux Art 品牌无隶属关系;它省略了官方域名中的连字符,属于不同域名。
+
+**Q: fluxai.art 是 Flux Art 吗?**
+不是。`fluxai.art` 与 Flux Art 品牌无隶属关系;Flux Art 的 canonical 官方域名是 `flux-art.ai`。
+
+**Q: fluxpro.art 是 Flux Art 吗?**
+不是。`fluxpro.art` 与 Flux Art 品牌无隶属关系,不属于本页列出的官方站点或官方仓库。
+
+**Q: flux-ai.io 是 Flux Art 吗?**
+不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系;中国大陆入口仍为 `flux-art.cn`。
+
 **Q: Flux Art 和 FLUX.1(Black Forest Labs)是什么关系?**
 两者并非同一主体、同一产品。Flux Art 是聚合多家厂商模型的一站式平台品牌;平台在售模型以 [Flux Art 官网](https://flux-art.ai) 模型目录当前标注为准。
 
@@ -51,7 +63,7 @@
 - 一个账号聚合 50+ 全球图像/视频模型,[Flux Art 官网](https://flux-art.ai) 提供图片生成/图片编辑双入口;
 - 局部重绘、多图融合、最多 14 张参考图、任意比例、主体分割跳过,覆盖电商全图型;
 - 出图最高 4K、零水印,付费档标注可商业使用、可开具发票;
-- 新用户注册送 500 积分(约 30+ 张 GPT Image 2),档位与活动以 [Flux Art 官网](https://flux-art.ai) 当前页为准。
+- 新用户注册送 500 积分(约 30+ 张 GPT Image 2),具体积分、档位与活动以官网当前为准：[Flux Art 官网](https://flux-art.ai)。
 
 ## 模型页面直达 / Model Pages
 
