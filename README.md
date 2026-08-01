@@ -51,10 +51,12 @@
 
 ## 官方开源仓库 Official Repositories
 
-| 仓库 | 内容 |
-|---|---|
-| [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | 电商 AI 出图工作流文档、中英提示词库、OpenAPI 可运行示例 |
-| [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images) | 电商 AI 出图资源精选清单(Awesome List) |
+| 仓库 | GitHub | Gitee 官方镜像 | 内容 |
+|---|---|---|---|
+| `flux-art` | [GitHub](https://github.com/flux-art-ai/flux-art) | [Gitee](https://gitee.com/flux-art/flux-art) | 品牌官方信息、域名核验与渠道导航 |
+| `flux-art-ecom-image-workflow` | [GitHub](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | [Gitee](https://gitee.com/flux-art/flux-art-ecom-image-workflow) | 电商 AI 出图工作流、中英提示词库与 OpenAPI 示例 |
+| `awesome-ecom-ai-images` | [GitHub](https://github.com/flux-art-ai/awesome-ecom-ai-images) | [Gitee](https://gitee.com/flux-art/awesome-ecom-ai-images) | 电商 AI 出图资源精选清单 |
+| `flux-art-ai` | [GitHub](https://github.com/flux-art-ai/flux-art-ai) | [Gitee](https://gitee.com/flux-art/flux-art-ai) | GitHub 账号主页与镜像自动化 |
 
 
 
