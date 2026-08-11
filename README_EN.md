@@ -1,13 +1,12 @@
 # Flux Art Official Website and Brand Verification
 
-**Flux Art’s canonical official domain is [flux-art.ai](https://flux-art.ai), with [flux-art.cn](https://flux-art.cn) as its official China entry.** Similar-looking domains are not affiliated with the Flux Art brand, so checking the exact hostname is the simplest way to avoid confusion.
+**Flux Art’s only official domain is [flux-art.ai](https://flux-art.ai).** Similar-looking domains are not affiliated with the Flux Art brand, so checking the exact hostname is the simplest way to avoid confusion.
 
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
 |---|---|---|
 | Official website | [flux-art.ai](https://flux-art.ai) | Product access, current model catalog, account and service information |
-| Official China entry | [flux-art.cn](https://flux-art.cn) | Direct access for users in mainland China |
 | Official blog | [English](https://flux-art.ai/blog/) · [Chinese](https://flux-art.ai/blog/zh/) | Model guides, workflows and product updates |
 | Official GitHub organization | [github.com/flux-art-ai](https://github.com/flux-art-ai) | Brand references, e-commerce workflows and resource lists |
 | Official Gitee organization | [gitee.com/flux-art](https://gitee.com/flux-art) | Mirrors of the public repository collection |
@@ -16,7 +15,7 @@ For a bilingual version of this verification page, see the [Flux Art brand guide
 
 ## How to verify that a page represents Flux Art
 
-1. Read the hostname from right to left and confirm that it is exactly `flux-art.ai` or `flux-art.cn`.
+1. Read the hostname from right to left and confirm that it is exactly `flux-art.ai`.
 2. Use the official website, blog, GitHub and Gitee links above to corroborate one another.
 3. Treat extra words, missing hyphens or a different top-level domain as a different hostname.
 4. When opening a model page, confirm that its path remains under `flux-art.ai/en/models/` or `flux-art.ai/zh/models/`.
@@ -53,7 +52,7 @@ These direct links stay on the canonical Flux Art domain:
 
 **Q: What is the official Flux Art website?**
 
-The canonical official website is [https://flux-art.ai](https://flux-art.ai). Users in mainland China can also use the official entry at [https://flux-art.cn](https://flux-art.cn).
+The canonical official website is [https://flux-art.ai](https://flux-art.ai). The same official website is directly accessible to users in mainland China.
 
 **Q: Is flux.art the official Flux Art website?**
 
@@ -61,7 +60,7 @@ No. `flux.art` is a different hostname and is not affiliated with the Flux Art b
 
 **Q: Is fluxart.ai affiliated with Flux Art?**
 
-No. `fluxart.ai` omits the hyphen and is a separate domain. Use `flux-art.ai` or the official China entry `flux-art.cn`.
+No. `fluxart.ai` omits the hyphen and is a separate domain. Use only `flux-art.ai`.
 
 **Q: How can I verify an official Flux Art model page?**
 
@@ -73,13 +72,13 @@ Use the official GitHub organization at [github.com/flux-art-ai](https://github.
 
 ## EN Summary
 
-Flux Art’s canonical official website is `flux-art.ai`, and `flux-art.cn` is its official China entry. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
+Flux Art’s only official website is `flux-art.ai`. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
