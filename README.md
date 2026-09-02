@@ -13,7 +13,7 @@
 | [Flux Art 官网](https://flux-art.cc)(Official Site) | https://flux-art.cc |
 | [Flux Art 官方博客](https://flux-art.cc/blog/zh/)(中文) | https://flux-art.cc/blog/zh/ |
 | [Flux Art Official Blog](https://flux-art.cc/blog/)(EN) | https://flux-art.cc/blog/ |
-| Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.ai/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cc) 控制台 |
+| Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.cc/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cc) 控制台 |
 
 ## 唯一官网声明 / Anti-Impersonation Notice
 
