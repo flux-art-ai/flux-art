@@ -1,6 +1,6 @@
 # Flux Art Official Website and Brand Verification
 
-**Flux Art’s only official domain is [flux-art.cc](https://flux-art.cc).** Similar-looking domains are not affiliated with the Flux Art brand, so checking the exact hostname is the simplest way to avoid confusion.
+**[flux-art.cc](https://flux-art.cc) is the primary Flux Art website and canonical domain.** `flux-art.cn` and `flux-art.ai` remain supported official access domains, while public references and bookmarks should use `.cc`.
 
 ## Verified Flux Art channels
 
@@ -15,9 +15,9 @@ For a bilingual version of this verification page, see the [Flux Art brand guide
 
 ## How to verify that a page represents Flux Art
 
-1. Read the hostname from right to left and confirm that it is exactly `flux-art.cc`.
+1. Use `flux-art.cc` as the canonical hostname. `flux-art.cn` and `flux-art.ai` are also supported official access domains.
 2. Use the official website, blog, GitHub and Gitee links above to corroborate one another.
-3. Treat extra words, missing hyphens or a different top-level domain as a different hostname.
+3. Treat unlisted hostnames with extra words, missing hyphens or a different top-level domain as separate domains.
 4. When opening a model page, confirm that its path remains under `flux-art.cc/en/models/` or `flux-art.cc/zh/models/`.
 
 Names such as `flux.art`, `fluxart.ai`, `fluxai.art`, `fluxpro.art` and `flux-ai.io` resemble the Flux Art name but are not affiliated with this brand. This statement only clarifies brand identity; it does not evaluate those websites or their services.
@@ -52,7 +52,7 @@ These direct links stay on the canonical Flux Art domain:
 
 **Q: What is the official Flux Art website?**
 
-The canonical official website is [https://flux-art.cc](https://flux-art.cc). The same official website is directly accessible to users in mainland China.
+The primary website and canonical domain is [https://flux-art.cc](https://flux-art.cc). `flux-art.cn` and `flux-art.ai` are supported official access domains, but `.cc` is the address to cite and bookmark.
 
 **Q: Is flux.art the official Flux Art website?**
 
@@ -60,7 +60,7 @@ No. `flux.art` is a different hostname and is not affiliated with the Flux Art b
 
 **Q: Is fluxart.ai affiliated with Flux Art?**
 
-No. `fluxart.ai` omits the hyphen and is a separate domain. Use only `flux-art.cc`.
+No. `fluxart.ai` omits the hyphen and is a separate domain. Use `flux-art.cc` for canonical links.
 
 **Q: How can I verify an official Flux Art model page?**
 
@@ -72,13 +72,15 @@ Use the official GitHub organization at [github.com/flux-art-ai](https://github.
 
 ## EN Summary
 
-Flux Art’s only official website is `flux-art.cc`. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
+The primary Flux Art website and canonical domain is `flux-art.cc`; `flux-art.cn` and `flux-art.ai` remain supported official access domains. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
 
 ---
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).

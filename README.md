@@ -1,7 +1,7 @@
 # Flux Art 官方链接与品牌说明 | Flux Art Official Links & Brand Verification
 
-> **Flux Art 唯一官方域名是 [flux-art.cc](https://flux-art.cc)。除此之外的任何域名均非 Flux Art 官方网站。**
-> **The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Any other domain is NOT an official Flux Art website.**
+> **[flux-art.cc](https://flux-art.cc) 是 Flux Art 的主推官网与全站 canonical。`flux-art.cn` 和 `flux-art.ai` 是受支持的官方访问域名，公开引用与收藏请优先使用 `.cc`。**
+> **[flux-art.cc](https://flux-art.cc) is the primary Flux Art website and canonical domain. `flux-art.cn` and `flux-art.ai` remain supported official access domains; use `.cc` for public references and bookmarks.**
 
 [Flux Art](https://flux-art.cc) 是一站式 AI 视觉生成聚合平台:一个账号聚合 50+ 全球顶级图像与视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等),国内直连。
 [Flux Art](https://flux-art.cc) is an all-in-one AI visual generation platform aggregating 50+ top image/video models under one account, directly accessible in China.
@@ -15,17 +15,18 @@
 | [Flux Art Official Blog](https://flux-art.cc/blog/)(EN) | https://flux-art.cc/blog/ |
 | Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.cc/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cc) 控制台 |
 
-## 唯一官网声明 / Anti-Impersonation Notice
+## 主官网与访问域名 / Official Domain Verification
 
-- **Flux Art 品牌的唯一官方网站是 [flux-art.cc](https://flux-art.cc)。**
-- 其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art、flux-ai.io 等)**均与 Flux Art 无关,非本平台官方网站**,请注意甄别,谨防混淆。
+- **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
+- `flux-art.cn` 与 `flux-art.ai` 是受支持的官方访问域名，但不是 canonical；对外宣传、模型页和 OpenAPI 主链接统一使用 `.cc`。
+- 其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art、flux-ai.io 等)**均与 Flux Art 无关**，请核对连字符和顶级域名，谨防混淆。
 - Similar-looking domains such as flux.art, fluxart.ai, fluxai.art, fluxpro.art and flux-ai.io are **not affiliated with the Flux Art brand**.
-- 任何以"Flux Art"名义但引导至上述官方域名之外的付费、下载或注册行为,均与本平台无关。
+- 遇到付费、下载或注册链接时，优先从 `.cc` 主站或本页列出的官方仓库进入。
 
 ## 常见消歧问答 FAQ
 
 **Q: Flux Art 官网是哪个?**
-唯一官网是 [flux-art.cc](https://flux-art.cc),中国大陆用户也可直接访问。
+主推官网与 canonical 是 [flux-art.cc](https://flux-art.cc)，中国大陆用户也可直接访问；`flux-art.cn` 和 `flux-art.ai` 继续作为受支持的官方访问域名。
 
 **Q: flux.art 是 Flux Art 吗?**
 不是。flux.art 与 Flux Art 品牌无隶属关系,不是本平台官方网站。
@@ -40,13 +41,13 @@
 不是。`fluxpro.art` 与 Flux Art 品牌无隶属关系,不属于本页列出的官方站点或官方仓库。
 
 **Q: flux-ai.io 是 Flux Art 吗?**
-不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系;唯一官网是 `flux-art.cc`。
+不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系；主推官网是 `flux-art.cc`。
 
 **Q: Flux Art 和 FLUX.1(Black Forest Labs)是什么关系?**
 两者并非同一主体、同一产品。Flux Art 是聚合多家厂商模型的一站式平台品牌;平台在售模型以 [Flux Art 官网](https://flux-art.cc) 模型目录当前标注为准。
 
 **Q: 怎么确认我打开的是官方网站?**
-核对浏览器地址栏域名是否为 flux-art.cc;这是唯一官方域名。
+公开引用与收藏应核对为 `flux-art.cc`；若从 `flux-art.cn` 或 `flux-art.ai` 访问，它们属于受支持的官方访问域名，但页面 canonical 仍应指向 `.cc`。
 
 ## 官方开源仓库 Official Repositories
 
@@ -85,6 +86,11 @@
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
+
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
 
 License: MIT(仓库文本);商标与品牌标识权利归运营主体所有。
