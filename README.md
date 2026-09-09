@@ -71,6 +71,7 @@
 | `flux-art-ecom-image-workflow` | [GitHub](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | [Gitee](https://gitee.com/flux-art/flux-art-ecom-image-workflow) | 电商 AI 出图工作流、中英提示词库与 OpenAPI 示例 |
 | `awesome-ecom-ai-images` | [GitHub](https://github.com/flux-art-ai/awesome-ecom-ai-images) | [Gitee](https://gitee.com/flux-art/awesome-ecom-ai-images) | 电商 AI 出图资源精选清单 |
 | `flux-art-ai` | [GitHub](https://github.com/flux-art-ai/flux-art-ai) | [Gitee](https://gitee.com/flux-art/flux-art-ai) | GitHub 账号主页与镜像自动化 |
+| `gpt-image-2.5` | [GitHub](https://github.com/flux-art-ai/gpt-image-2.5) | 请使用 GitHub | GPT Image 2.5 使用渠道、在线入口、Flare / Sunburst 版本选择与操作教程 |
 
 
 
@@ -86,6 +87,7 @@
 
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
+| [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) | 图片生成与参考图编辑，工作台内选择 Flare / Sunburst（[使用渠道与教程](https://github.com/flux-art-ai/gpt-image-2.5)） | [EN](https://flux-art.cc/en/models/gpt-image-2-5) |
 | [Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.cc/en/models/grok-imagine-image-pro) |
 | [Nano Banana 2 Lite](https://flux-art.cc/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.cc/en/models/nano-banana-2-lite) |
 | [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.cc/en/models/seedream-5-0-pro) |
