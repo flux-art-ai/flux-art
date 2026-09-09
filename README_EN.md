@@ -7,7 +7,7 @@
 | Channel | Verified address | What to use it for |
 |---|---|---|
 | Official website | [flux-art.cc](https://flux-art.cc) | Product access, current model catalog, account and service information |
-| Official blog | [English](https://flux-art.cc/blog/) · [Chinese](https://flux-art.cc/blog/zh/) | Model guides, workflows and product updates |
+| Official blog | [English](https://flux-art.cc/blog/en/) · [Chinese](https://flux-art.cc/blog/zh/) | Model guides, workflows and product updates |
 | Official GitHub organization | [github.com/flux-art-ai](https://github.com/flux-art-ai) | Brand references, e-commerce workflows and resource lists |
 | Official Gitee organization | [gitee.com/flux-art](https://gitee.com/flux-art) | Mirrors of the public repository collection |
 
@@ -24,9 +24,19 @@ Names such as `flux.art`, `fluxart.ai`, `fluxai.art`, `fluxpro.art` and `flux-ai
 
 ## What Flux Art provides
 
-Flux Art brings 50+ image and video models into one creative workspace with image-generation and image-editing entry points. Its supported workflows include local inpainting, multi-image fusion, up to 14 reference images, arbitrary aspect ratios and optional subject-segmentation skipping. Eligible paid tiers can provide up to 4K watermark-free output, commercial-use terms and invoices; current availability is shown on the official website.
+Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It brings 50+ third-party image and video models into one workspace with image-generation and image-editing entry points. It is not Black Forest Labs' FLUX.1 model or the developer of the upstream models. Available reference-image, editing and output options depend on the selected tool and model; eligible paid tiers can include commercial-use terms and invoices.
 
 The same workspace also includes a 20K+ prompt library and 150+ vertical Agents. Model availability and account terms can change, so use the official site as the current source.
+
+## Ecommerce creation tools
+
+The [Flux Art AI Ecommerce workspace](https://flux-art.cc/en/ai-ecommerce) groups tools by the material you need to produce:
+
+- Listing assets: [Product Suite](https://flux-art.cc/en/ai-ecommerce/product-suite), [A+ Content](https://flux-art.cc/en/ai-ecommerce/a-plus-content), [SKU Batch Images](https://flux-art.cc/en/ai-ecommerce/sku-batch).
+- Product-image editing: [Reference Clone](https://flux-art.cc/en/ai-ecommerce/reference-clone), [Product Retouch](https://flux-art.cc/en/ai-ecommerce/product-retouch), [Product Recolor](https://flux-art.cc/en/ai-ecommerce/product-recolor), [Background Replace](https://flux-art.cc/en/ai-ecommerce/product-background).
+- Apparel and try-on: [Outfit Image Set](https://flux-art.cc/en/ai-ecommerce/clothing-suite), [Model Wearing](https://flux-art.cc/en/ai-ecommerce/model-wearing), [Accessory Try-on](https://flux-art.cc/en/ai-ecommerce/accessory-try-on), [Model Pose Change](https://flux-art.cc/en/ai-ecommerce/model-pose-change), [Model Face Swap](https://flux-art.cc/en/ai-ecommerce/model-face-swap), [Shoe Try-on](https://flux-art.cc/en/ai-ecommerce/shoe-try-on).
+
+Use authorized product and portrait references, and review product details, text and anatomy before publication. These creation tools do not certify marketplace approval or real-world fit. See the [English workflow index](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README_EN.md) for the next steps.
 
 ## Official model pages
 
@@ -76,7 +86,7 @@ The primary Flux Art website and canonical domain is `flux-art.cc`; `flux-art.cn
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 

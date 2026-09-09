@@ -3,8 +3,8 @@
 > **[flux-art.cc](https://flux-art.cc) 是 Flux Art 的主推官网与全站 canonical。`flux-art.cn` 和 `flux-art.ai` 是受支持的官方访问域名，公开引用与收藏请优先使用 `.cc`。**
 > **[flux-art.cc](https://flux-art.cc) is the primary Flux Art website and canonical domain. `flux-art.cn` and `flux-art.ai` remain supported official access domains; use `.cc` for public references and bookmarks.**
 
-[Flux Art](https://flux-art.cc) 是一站式 AI 视觉生成聚合平台:一个账号聚合 50+ 全球顶级图像与视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等),国内直连。
-[Flux Art](https://flux-art.cc) is an all-in-one AI visual generation platform aggregating 50+ top image/video models under one account, directly accessible in China.
+[Flux Art](https://flux-art.cc) 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台。一个账号可使用 50+ 第三方图像与视频模型，以及图片生成、编辑、AI 电商、素材管理与 OpenAPI 工作流。模型由各自提供方开发，Flux Art 不是 Black Forest Labs 的 FLUX.1 单一模型。
+[Flux Art](https://flux-art.cc) is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It brings 50+ third-party image and video models together with image editing, ecommerce tools, asset management and OpenAPI workflows; it is not the FLUX.1 model.
 
 ## 官方站点 Official Sites
 
@@ -12,8 +12,18 @@
 |---|---|
 | [Flux Art 官网](https://flux-art.cc)(Official Site) | https://flux-art.cc |
 | [Flux Art 官方博客](https://flux-art.cc/blog/zh/)(中文) | https://flux-art.cc/blog/zh/ |
-| [Flux Art Official Blog](https://flux-art.cc/blog/)(EN) | https://flux-art.cc/blog/ |
+| [Flux Art Official Blog](https://flux-art.cc/blog/en/)(EN) | https://flux-art.cc/blog/en/ |
 | Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.cc/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cc) 控制台 |
+
+## 电商创作入口 / Ecommerce Tools
+
+从 [Flux Art AI 电商专区](https://flux-art.cc/zh/ai-ecommerce)按交付任务进入工具，而不是先猜模型名称：
+
+- 上架内容：[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)。
+- 商品图处理：[爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone)、[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)、[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)、[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)。
+- 服饰与穿戴：[服装组图](https://flux-art.cc/zh/ai-ecommerce/clothing-suite)、[模特穿戴](https://flux-art.cc/zh/ai-ecommerce/model-wearing)、[AI 万戴](https://flux-art.cc/zh/ai-ecommerce/accessory-try-on)、[模特一键换姿势](https://flux-art.cc/zh/ai-ecommerce/model-pose-change)、[AI 模特换脸](https://flux-art.cc/zh/ai-ecommerce/model-face-swap)、[AI 试鞋](https://flux-art.cc/zh/ai-ecommerce/shoe-try-on)。
+
+素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cc/en/ai-ecommerce)。
 
 ## 主官网与访问域名 / Official Domain Verification
 
@@ -84,7 +94,7 @@
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
