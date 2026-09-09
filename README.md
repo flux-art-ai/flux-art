@@ -6,6 +6,10 @@
 [Flux Art](https://flux-art.cc) 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台。一个账号可使用 50+ 第三方图像与视频模型，以及图片生成、编辑、AI 电商、素材管理与 OpenAPI 工作流。模型由各自提供方开发，Flux Art 不是 Black Forest Labs 的 FLUX.1 单一模型。
 [Flux Art](https://flux-art.cc) is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It brings 50+ third-party image and video models together with image editing, ecommerce tools, asset management and OpenAPI workflows; it is not the FLUX.1 model.
 
+## GPT Image 2.5 使用入口
+
+在 [Flux Art GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，进行图片生成与参考图编辑。使用渠道、版本选择和逐步操作见 [GPT Image 2.5 使用指南仓库](https://github.com/flux-art-ai/gpt-image-2.5)；模型由 OpenAI 提供，本指南由 Flux Art 维护。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |

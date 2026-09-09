@@ -2,6 +2,10 @@
 
 **[flux-art.cc](https://flux-art.cc) is the primary Flux Art website and canonical domain.** `flux-art.cn` and `flux-art.ai` remain supported official access domains, while public references and bookmarks should use `.cc`.
 
+## GPT Image 2.5 online access
+
+Use [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) for image generation and reference editing with Flare or Sunburst. The [Flux Art-maintained usage guide](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/README_EN.md) explains access, model selection and output review. OpenAI develops the models; Flux Art provides the platform described in the guide.
+
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
