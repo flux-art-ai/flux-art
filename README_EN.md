@@ -6,6 +6,16 @@
 
 Use [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) for image generation and reference editing with Flare or Sunburst. The [Flux Art-maintained usage guide](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/README_EN.md) explains access, model selection and output review. OpenAI develops the models; Flux Art provides the platform described in the guide.
 
+### Which page should I open to start making product images?
+
+Open a model page when you want to choose the model yourself; use an ecommerce tool when you already know the deliverable. GitHub contains instructions and examples, not the image-generation interface.
+
+- **A new product-image composition:** start with [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), or choose Flare in the [GPT Image 2.5 workspace](https://flux-art.cc/en/models/gpt-image-2-5). Use real references when the image represents an actual item for sale.
+- **An existing product photo to revise:** compare [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) with the editing options in GPT Image 2.5. Keep the source image and intended change the same; inspect labels, shape and material before selecting a result.
+- **A listing image set or SKU variants:** open [AI Ecommerce](https://flux-art.cc/en/ai-ecommerce) and choose Product Suite or SKU Batch Images. A tool's task name does not identify its underlying model.
+
+These are starting routes, not a benchmark ranking. A newer model name does not establish that it is the best choice for every product or that existing GPT Image 2 workflows must be replaced.
+
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
@@ -48,6 +58,7 @@ These direct links stay on the canonical Flux Art domain:
 
 | Model | English page | Chinese page | Best-fit workflow |
 |---|---|---|---|
+| GPT Image 2.5 | [English](https://flux-art.cc/en/models/gpt-image-2-5) | [Chinese](https://flux-art.cc/zh/models/gpt-image-2-5) | Generation and reference editing; select Flare or Sunburst in the workspace |
 | GPT Image 2 | [English](https://flux-art.cc/en/models/gpt-image-2) | [Chinese](https://flux-art.cc/zh/models/gpt-image-2) | Product images and photorealistic commercial photography |
 | Nano Banana 2 | [English](https://flux-art.cc/en/models/nano-banana-2) | [Chinese](https://flux-art.cc/zh/models/nano-banana-2) | Consistent image editing |
 | Seedream 5.0 Pro | [English](https://flux-art.cc/en/models/seedream-5-0-pro) | [Chinese](https://flux-art.cc/zh/models/seedream-5-0-pro) | AI infographics and precise image editing |
@@ -61,6 +72,8 @@ These direct links stay on the canonical Flux Art domain:
 | [flux-art](https://github.com/flux-art-ai/flux-art) | Canonical brand verification and official-channel navigation |
 | [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | Practical e-commerce image workflows, prompts and API examples |
 | [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images) | Curated e-commerce AI image resources and compliance references |
+| [flux-art-ai](https://github.com/flux-art-ai/flux-art-ai) | Account homepage with model access and tutorial navigation |
+| [gpt-image-2.5](https://github.com/flux-art-ai/gpt-image-2.5) | GPT Image 2.5 access, version selection, reference editing and troubleshooting guides |
 
 ## FAQ
 
