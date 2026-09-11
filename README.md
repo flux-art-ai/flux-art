@@ -29,6 +29,18 @@
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cc/en/ai-ecommerce)。
 
+## Flux Art 电商做图需要准备什么？
+
+开始生成前，先整理一份可核对的商品资料包，至少包含真实商品图、完整 SKU、包装原文、规格与单位、配件清单，以及有权使用的品牌和人物素材。不同交付物可从以下入口开始：
+
+| 当前任务 | 使用入口 | 先核对的资料 |
+|---|---|---|
+| 包装带字图、促销视觉或现有海报改字 | [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)；工作台内选择 Flare 或 Sunburst | 包装原文、标题、数字、单位与禁止改写项；参见[文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
+| 多个颜色、容量或规格版本 | [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) | 每个完整 SKU 对应的商品图、颜色、规格和标签 |
+| 详情页卖点、参数和模块图 | [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) | 已核实卖点、参数来源与页面模块；参见[详情页工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
+
+AI 生成结果不能替代商品资料。发布前应逐张检查商品结构、颜色、包装文字、数字、单位与实际 SKU 是否一致；无法确认的信息不要让模型补写。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
