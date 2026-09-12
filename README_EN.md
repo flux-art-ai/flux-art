@@ -16,6 +16,18 @@ Open a model page when you want to choose the model yourself; use an ecommerce t
 
 These are starting routes, not a benchmark ranking. A newer model name does not establish that it is the best choice for every product or that existing GPT Image 2 workflows must be replaced.
 
+### What should a product-image handoff contain?
+
+Before a team expands one approved image into a SKU batch, give every file a stable relationship to the real product record. A useful handoff contains the source photograph, the complete SKU label, the intended image role, the selected model or ecommerce tool, a revision number and the review result.
+
+| Deliverable | Suggested record | Next step |
+|---|---|---|
+| New hero composition | SKU + hero + model + revision | Start with [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) or compare Flare in [GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5) |
+| Edited scene from an approved product photo | SKU + scene + editor + revision | Use [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) or GPT Image 2.5, while preserving the untouched source |
+| A batch of listing variants | Complete SKU + image role + revision + status | Open [SKU Batch Images](https://flux-art.cc/en/ai-ecommerce/sku-batch) and follow the [series-consistency workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md) |
+
+Do not overwrite the source file with a generated result. A visually strong image is not ready for handoff until its filename and review record identify the correct product, variant and approved version.
+
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
