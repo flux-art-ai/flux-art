@@ -41,6 +41,18 @@
 
 AI 生成结果不能替代商品资料。发布前应逐张检查商品结构、颜色、包装文字、数字、单位与实际 SKU 是否一致；无法确认的信息不要让模型补写。
 
+## 已验收图片怎样整理成渠道交付包？
+
+同一张商品图进入不同渠道前，先复制为独立交付版本，不要覆盖已验收母版。每个渠道包应包含图片文件、完整 SKU 对照表、图片用途、尺寸与格式来源、验收结论和负责人；尺寸不能凭经验沿用，应在交付当天核对目标渠道及类目的当前要求。
+
+| 渠道包内容 | 记录什么 | 继续操作 |
+|---|---|---|
+| 已验收母版 | 商品、SKU、生成或编辑入口、版本与验收日期 | 新构图可追溯到 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 或 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)；一致性改图记录 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) |
+| 渠道导出文件 | 图片用途、像素、比例、格式与渠道名称 | 套图任务进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)，详情模块进入 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content) |
+| 清单与退回记录 | 文件名、完整 SKU、负责人、检查结果和退回原因 | 按[合规与交付检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)逐项确认 |
+
+渠道包中的“已验收”只表示通过团队当前清单，不代表平台审核通过。任何裁切、压缩、文字替换或颜色调整都会形成新版本，需要重新检查商品完整度、包装文字与素材权利。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
