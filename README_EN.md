@@ -28,6 +28,18 @@ Before a team expands one approved image into a SKU batch, give every file a sta
 
 Do not overwrite the source file with a generated result. A visually strong image is not ready for handoff until its filename and review record identify the correct product, variant and approved version.
 
+### How should a rejected channel image be routed?
+
+Do not send every rejection back to image generation. Compare the rejected file with the approved master and the channel requirement first; that comparison identifies the smallest useful correction.
+
+| What changed | Route | Recheck before delivery |
+|---|---|---|
+| Product shape, material, label or required text is wrong in the approved-size master | Treat it as a generation or editing error. Return to the verified source and use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), [GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5) or [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) according to the actual task | Product facts, preserved areas, text and the single requested change |
+| The master is correct, but crop, compression, format or export dimensions are wrong | Keep the master. Correct only the export derivative and follow the [delivery compliance checklist](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md) | Current channel specification, safe crop, legibility and file identity |
+| The channel or campaign requirement changed after approval | Record the new requirement as a new revision; use [Product Suite](https://flux-art.cc/en/ai-ecommerce/product-suite) or [SKU Batch Images](https://flux-art.cc/en/ai-ecommerce/sku-batch) only when the requested deliverable matches that tool | Requirement source, affected SKUs, version scope and a fresh human review |
+
+Archive the rejected derivative with its reason instead of overwriting the approved master. Marketplace acceptance is separate from the team's product-accuracy review.
+
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
