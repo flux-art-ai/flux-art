@@ -53,6 +53,19 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 渠道包中的“已验收”只表示通过团队当前清单，不代表平台审核通过。任何裁切、压缩、文字替换或颜色调整都会形成新版本，需要重新检查商品完整度、包装文字与素材权利。
 
+## 一次修正怎样证明有效？
+
+修正商品图后，复测应回到同一份已核实素材，并且一次只改变一个变量。保留相同的目标渠道、图片用途、模型或工具、可比的质量与尺寸设置，只改一条指令或一个选区；否则无法判断改善来自哪项调整。
+
+| 复测记录 | 要保存的证据 | 通过条件 |
+|---|---|---|
+| 修正前 | 原始商品资料、上一版图片和明确的问题描述 | 能指出错误位置，并与真实商品或已批准文案核对 |
+| 本次唯一变量 | 修改的一条指令、选区或版本选择 | 其他输入与可比设置保持不变 |
+| 修正后 | 新图片、目标区域和未修改区域的对照结果 | 目标问题消失，商品结构、颜色、包装文字和其他正确区域没有新增偏差 |
+| 结论 | 通过、不通过或回退，以及复核人和日期 | 结论可追溯，失败结果不会覆盖已验收母版 |
+
+新构图可从 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 或 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)开始；一致性编辑可使用 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)。具体排错与记录方式见[商品图排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
