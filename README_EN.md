@@ -40,6 +40,19 @@ Do not send every rejection back to image generation. Compare the rejected file 
 
 Archive the rejected derivative with its reason instead of overwriting the approved master. Marketplace acceptance is separate from the team's product-accuracy review.
 
+### When should a team stop patching an AI product image?
+
+Stop adding edits when the same verified requirement still fails in consecutive, comparable rechecks, or when each correction damages a different approved area. The next action should follow the evidence, not the number of prompts already tried.
+
+| Evidence after recheck | Decision | Safe continuation |
+|---|---|---|
+| The current derivative drifted, but an earlier approved image still has correct product facts | Roll back | Restart from the approved master and keep one explicit change; use the [ecommerce troubleshooting guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md) to verify preserved areas |
+| The source does not clearly show a required label, structure, material or variant | Rebuild the evidence package | Obtain a readable product photo, approved copy or complete SKU record before returning to [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), [GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5) or another suitable route |
+| Exact typography, a protected brand element or a legally significant detail cannot be preserved reliably | Hand off to a person | Give the designer or reviewer the untouched source, approved master, failed output, exact change request and comparison result; do not present a generated approximation as verified |
+| The approved master is correct and only the channel export fails | Keep the master | Rebuild the derivative from the master under the current crop, format and size requirement instead of regenerating the product image |
+
+Record the decision as `rollback`, `rebuild source`, `human handoff` or `export again`. This keeps a failed experiment from becoming the next team's source of truth.
+
 ## Verified Flux Art channels
 
 | Channel | Verified address | What to use it for |
