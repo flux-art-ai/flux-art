@@ -66,6 +66,16 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 新构图可从 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 或 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)开始；一致性编辑可使用 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)。具体排错与记录方式见[商品图排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
 
+## 修复件通过后，怎样恢复电商做图？
+
+在 Flux Art 继续制作商品图前，先区分三个结论：“这张修复件通过”“下一轮编辑通过”和“受影响批次可以交付”。它们各自需要复核，不能因设计师修好一张图就自动放行其他 SKU。
+
+- **文件验收**：对照实拍、完整 SKU 和已批准包装资料，确认原问题解决，商品结构、颜色、材质、文字和配件没有新增偏差。
+- **继续编辑**：将通过版本作为新基线。进入 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)、[GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)时，只提出一个明确变化，下载结果后再检查整图。
+- **恢复批次**：修正批次实际使用的资料和模板，明确受影响 SKU；需要多变体时使用 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)，需要同商品多个模块时使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)。逐图核对，不推断专用工具采用同一模型。
+
+操作与记录示例见 [GPT Image 2.5 返修验收教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/repair-acceptance-and-batch-restart.md)。这是团队制作流程建议，不是平台自动验收功能，也不代表电商渠道审核通过。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
