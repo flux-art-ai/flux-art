@@ -76,6 +76,19 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 操作与记录示例见 [GPT Image 2.5 返修验收教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/repair-acceptance-and-batch-restart.md)。这是团队制作流程建议，不是平台自动验收功能，也不代表电商渠道审核通过。
 
+## SKU 或包装更新后，怎样替换仍在使用的旧商品图？
+
+商品本身、包装文字、容量、配件或 Logo 版本发生变化时，先把变更记录到完整 SKU，而不是直接用新图覆盖旧文件。随后按“母版、渠道导出、详情模块、活动素材”列出仍引用旧版本的图片；只有受影响的文件需要重做，未受影响且已经验收的资产可以保留。
+
+| 排查位置 | 要确认什么 | 下一步入口 |
+|---|---|---|
+| 商品资料与母版 | 新旧包装稿、实拍图、完整 SKU 和生效版本是否对应 | 新构图可评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)；需要在现有图上继续编辑时进入 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) |
+| 批量与系列文件 | 哪些颜色、容量、尺码或配件版本仍调用旧素材 | 使用 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)处理明确的受影响范围，并逐图核对 |
+| 同商品多模块 | 首图、白底、卖点、场景和详情模块是否共同引用旧包装 | 通过[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)按模块更新 |
+| 渠道衍生文件 | 裁切、压缩、翻译或活动版本是否从旧母版导出 | 从已验收的新母版重新导出，并记录新的版本关系 |
+
+若只是保持构图、替换为已核实的新商品素材，可评估 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)的一致性编辑；它不能代替新包装稿、实拍或 SKU 资料。完整替换步骤见[系列款一致性工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
