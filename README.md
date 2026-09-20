@@ -89,6 +89,19 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 若只是保持构图、替换为已核实的新商品素材，可评估 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)的一致性编辑；它不能代替新包装稿、实拍或 SKU 资料。完整替换步骤见[系列款一致性工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)。
 
+## 促销活动结束后，怎样恢复常规商品图？
+
+不要在活动结束时临时寻找“上一张主图”。发布促销版前就应保存一份已经验收、没有活动日期、价格或优惠文案的常规母版，并记录促销版从哪份母版派生、投放到哪些渠道以及计划结束时间。
+
+| 下线步骤 | 需要核对的证据 | 完成标准 |
+|---|---|---|
+| 锁定常规母版 | 完整 SKU、商品实拍、批准包装稿和上次验收记录 | 母版仍对应当前在售商品，且不含已经结束的活动信息 |
+| 撤下活动版本 | 渠道、广告位、详情模块、语言版本和计划结束时间 | 所有已登记位置都改回常规版或当前有效版本 |
+| 处理衍生文件 | 裁切、压缩、翻译、缩略图和缓存预览 | 前台实际展示与后台选择一致，不再出现过期日期或优惠 |
+| 留存下线记录 | 活动文件、恢复文件、操作人、时间和页面截图 | 可以追溯何时、在哪个渠道完成恢复 |
+
+若常规母版需要重新制作，可按任务进入 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)；模型入口不负责判断活动是否已经结束。需要同时恢复商品首图、卖点图和详情模块时，可使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织交付，并逐个渠道确认实际页面。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
