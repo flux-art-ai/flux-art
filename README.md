@@ -102,6 +102,20 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 若常规母版需要重新制作，可按任务进入 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)；模型入口不负责判断活动是否已经结束。需要同时恢复商品首图、卖点图和详情模块时，可使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织交付，并逐个渠道确认实际页面。
 
+## 无字常规母版怎样派生多语言商品图？
+
+先保留一份没有标题、卖点或活动信息的已验收常规母版，再为每个语言与市场建立独立版本。不要直接覆盖中文成品，也不要让模型从图片中猜测商品名称、参数或当地表达。
+
+| 派生步骤 | 必备资料 | 完成标准 |
+|---|---|---|
+| 锁定无字母版 | 完整 SKU、真实商品图、包装稿、母版版本与验收记录 | 商品、构图、颜色和留白已通过，文字区域清楚可用 |
+| 建立语言包 | 目标地区、批准文案、术语表、品牌名与不可翻译项 | 每个词条有唯一来源；数字、单位和型号不被拆开改写 |
+| 制作语言版本 | 一种语言对应一次任务和一个版本号 | 可用 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)处理短标题或限定区域改字；长文案放入排版工具 |
+| 映射渠道文件 | 语言、地区、渠道、图片用途、尺寸与来源母版 | 文件名和清单可以反查母版、语言包及当前渠道要求 |
+| 逐语言验收 | 目标语言复核人、商品事实、版式、裁切和前台截图 | 每种语言单独通过，不用中文版本的结论替代其他语言 |
+
+完整操作见[图片翻译与多语言套图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)和 [GPT Image 2.5 文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md)。这是制作与验收方法，不代表模型会自动完成翻译审核或满足各市场规则。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
