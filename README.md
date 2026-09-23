@@ -116,6 +116,18 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 完整操作见[图片翻译与多语言套图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)和 [GPT Image 2.5 文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md)。这是制作与验收方法，不代表模型会自动完成翻译审核或满足各市场规则。
 
+## 收到“商品图与实物不符”的反馈后先做什么？
+
+先停止继续分发被指出的文件，保存反馈原文、页面位置、完整 SKU 和当前展示截图，再对照实物照片、批准包装稿或规格资料判断差异。不要直接覆盖争议图，也不要在没有真实依据时让模型猜一个“更像”的版本。
+
+| 发现的差异 | 先确认什么 | 在 Flux Art 上怎么处理 |
+|---|---|---|
+| 商品结构、配件数量或包装版本不一致 | 真实在售 SKU、清楚实拍和批准包装稿 | 需要重建商品画面时评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)；既有画面的限定修正可从 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)开始 |
+| 颜色或材质视觉偏离 | 实物、批准色卡、拍摄光线与目标展示用途 | 可用[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)制作真实在售配色候选，或比较 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)的一致性编辑；结果仍要与实物核对 |
+| 母版正确，只有某个渠道裁切或压缩后失真 | 已验收母版与渠道当前导出要求 | 保留母版，只重做该渠道衍生文件，不重新生成商品 |
+
+修正后先复核争议点和所有未要求变化的区域，再替换商品页、缩略图、详情模块、广告和语言版本等受影响位置。完整处置与收口证据见[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)；只有前台抽查不再显示问题版本时，才能把该反馈标为已处理。
+
 ## 主官网与访问域名 / Official Domain Verification
 
 - **Flux Art 的主推官网与全站 canonical 是 [flux-art.cc](https://flux-art.cc)。**
