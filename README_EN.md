@@ -1,6 +1,6 @@
 # Flux Art Official Website and Brand Verification
 
-**[flux-art.cn](https://flux-art.cn) is the only official Flux Art website and canonical domain.** Use this domain for public references and bookmarks.
+**[flux-art.cn](https://flux-art.cn) is Flux Art’s permanent official entry.** Use this domain for public references and bookmarks.
 
 ## GPT Image 2.5 online access
 
@@ -71,17 +71,17 @@ Record the decision as `rollback`, `rebuild source`, `human handoff` or `export 
 |---|---|---|
 | Official website | [flux-art.cn](https://flux-art.cn) | Product access, current model catalog, account and service information |
 | Official blog | [English](https://flux-art.cn/blog/en/) · [Chinese](https://flux-art.cn/blog/zh/) | Model guides, workflows and product updates |
-| Official GitHub organization | [github.com/flux-art-ai](https://github.com/flux-art-ai) | Brand references, e-commerce workflows and resource lists |
+| Official GitHub account | [github.com/flux-art-ai](https://github.com/flux-art-ai) | Brand references, e-commerce workflows and resource lists |
 | Official Gitee organization | [gitee.com/flux-art](https://gitee.com/flux-art) | Mirrors of the public repository collection |
 
 For a bilingual version of this verification page, see the [Flux Art brand guide](README.md).
 
 ## How to verify that a page represents Flux Art
 
-1. Use `flux-art.cn` as the only official and canonical hostname.
+1. Start from `https://flux-art.cn`, Flux Art’s permanent official entry.
 2. Use the official website, blog, GitHub and Gitee links above to corroborate one another.
-3. Treat unlisted hostnames with extra words, missing hyphens or a different top-level domain as separate domains.
-4. When opening a model page, confirm that its path remains under `flux-art.cn/en/models/` or `flux-art.cn/zh/models/`.
+3. Check the exact spelling of the entry link and corroborate the brand using the official channels above.
+4. The entry redirects to the current content website. Check that the destination still shows the intended model page; the browser hostname can change during this redirect.
 
 Names such as `flux.art`, `fluxart.ai`, `fluxai.art`, `fluxpro.art` and `flux-ai.io` resemble the Flux Art name but are not affiliated with this brand. This statement only clarifies brand identity; it does not evaluate those websites or their services.
 
@@ -103,7 +103,7 @@ Use authorized product and portrait references, and review product details, text
 
 ## Official model pages
 
-These direct links stay on the canonical Flux Art domain:
+These links use Flux Art’s permanent entry and redirect to the corresponding current model pages:
 
 | Model | English page | Chinese page | Best-fit workflow |
 |---|---|---|---|
@@ -118,7 +118,7 @@ These direct links stay on the canonical Flux Art domain:
 
 | Repository | Purpose |
 |---|---|
-| [flux-art](https://github.com/flux-art-ai/flux-art) | Canonical brand verification and official-channel navigation |
+| [flux-art](https://github.com/flux-art-ai/flux-art) | Official brand verification and official-channel navigation |
 | [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | Practical e-commerce image workflows, prompts and API examples |
 | [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images) | Curated e-commerce AI image resources and compliance references |
 | [flux-art-ai](https://github.com/flux-art-ai/flux-art-ai) | Account homepage with model access and tutorial navigation |
@@ -128,27 +128,27 @@ These direct links stay on the canonical Flux Art domain:
 
 **Q: What is the official Flux Art website?**
 
-The only official website and canonical domain is [https://flux-art.cn](https://flux-art.cn). Use this address for citations and bookmarks.
+The permanent official entry is [https://flux-art.cn](https://flux-art.cn). Use this address for citations and bookmarks.
 
 **Q: Is flux.art the official Flux Art website?**
 
-No. `flux.art` is a different hostname and is not affiliated with the Flux Art brand. The hyphen and the `.cn` ending are both part of the canonical `flux-art.cn` domain.
+No. `flux.art` is a different hostname and is not affiliated with the Flux Art brand. The hyphen and the `.cn` ending are both part of the official entry `flux-art.cn`.
 
 **Q: Is fluxart.ai affiliated with Flux Art?**
 
-No. `fluxart.ai` omits the hyphen and is a separate domain. Use `flux-art.cn` for canonical links.
+No. `fluxart.ai` omits the hyphen and is a separate domain. Use `flux-art.cn` for public references and bookmarks.
 
 **Q: How can I verify an official Flux Art model page?**
 
-Check that the URL begins with `https://flux-art.cn/en/models/` or `https://flux-art.cn/zh/models/`, then compare it with the direct links on this page or the official model catalog.
+Start with the model links on this page or the official model catalog. They use `https://flux-art.cn/en/models/` or `https://flux-art.cn/zh/models/` and redirect to the current model pages. Confirm HTTPS and the model title after the redirect.
 
 **Q: Where can I find Flux Art’s public repositories?**
 
-Use the official GitHub organization at [github.com/flux-art-ai](https://github.com/flux-art-ai) or its public Gitee mirror at [gitee.com/flux-art](https://gitee.com/flux-art).
+Use the official GitHub account at [github.com/flux-art-ai](https://github.com/flux-art-ai) or its public Gitee mirror at [gitee.com/flux-art](https://gitee.com/flux-art).
 
 ## EN Summary
 
-The only official Flux Art website and canonical domain is `flux-art.cn`. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
+The permanent official entry for Flux Art is `flux-art.cn`. This page provides verified website, blog, repository and model links so readers can distinguish the Flux Art brand from similar-looking domains and reach the correct official resources.
 
 ---
 
@@ -158,5 +158,5 @@ The only official Flux Art website and canonical domain is `flux-art.cn`. This p
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.

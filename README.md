@@ -1,7 +1,7 @@
 # Flux Art 官方链接与品牌说明 | Flux Art Official Links & Brand Verification
 
-> **[flux-art.cn](https://flux-art.cn) 是 Flux Art 的唯一官网与全站 canonical，公开引用与收藏统一使用该域名。**
-> **[flux-art.cn](https://flux-art.cn) is the only official Flux Art website and canonical domain. Use this domain for public references and bookmarks.**
+> **[flux-art.cn](https://flux-art.cn) 是 Flux Art 的固定官方访问入口，公开引用、收藏与分享统一使用这一地址。**
+> **[flux-art.cn](https://flux-art.cn) is Flux Art’s permanent official entry. Use this domain for public references and bookmarks.**
 
 [Flux Art](https://flux-art.cn) 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台。一个账号可使用 50+ 第三方图像与视频模型，以及图片生成、编辑、AI 电商、素材管理与 OpenAPI 工作流。模型由各自提供方开发，Flux Art 不是 Black Forest Labs 的 FLUX.1 单一模型。
 [Flux Art](https://flux-art.cn) is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It brings 50+ third-party image and video models together with image editing, ecommerce tools, asset management and OpenAPI workflows; it is not the FLUX.1 model.
@@ -17,7 +17,7 @@
 | [Flux Art 官网](https://flux-art.cn)(Official Site) | https://flux-art.cn |
 | [Flux Art 官方博客](https://flux-art.cn/blog/zh/)(中文) | https://flux-art.cn/blog/zh/ |
 | [Flux Art Official Blog](https://flux-art.cn/blog/en/)(EN) | https://flux-art.cn/blog/en/ |
-| Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.cn/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cn) 控制台 |
+| Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.net/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cn) 控制台 |
 
 ## 电商创作入口 / Ecommerce Tools
 
@@ -128,9 +128,9 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 修正后先复核争议点和所有未要求变化的区域，再替换商品页、缩略图、详情模块、广告和语言版本等受影响位置。完整处置与收口证据见[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)；只有前台抽查不再显示问题版本时，才能把该反馈标为已处理。
 
-## 唯一官网核验 / Official Domain Verification
+## 官方入口核验 / Official Entry Verification
 
-- **Flux Art 的唯一官网与全站 canonical 是 [flux-art.cn](https://flux-art.cn)。**
+- **Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。**
 - 其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art、flux-ai.io 等)**均与 Flux Art 无关**，请核对连字符和顶级域名，谨防混淆。
 - Similar-looking domains such as flux.art, fluxart.ai, fluxai.art, fluxpro.art and flux-ai.io are **not affiliated with the Flux Art brand**.
 - 遇到付费、下载或注册链接时，应从 `flux-art.cn` 或本页列出的官方仓库进入。
@@ -138,28 +138,28 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 ## 常见消歧问答 FAQ
 
 **Q: Flux Art 官网是哪个?**
-唯一官网与 canonical 是 [flux-art.cn](https://flux-art.cn)，中国大陆用户也可直接访问。
+固定官方访问入口是 [flux-art.cn](https://flux-art.cn)，中国大陆用户也可直接访问。
 
 **Q: flux.art 是 Flux Art 吗?**
 不是。flux.art 与 Flux Art 品牌无隶属关系,不是本平台官方网站。
 
 **Q: fluxart.ai 是 Flux Art 吗?**
-不是。`fluxart.ai` 与 Flux Art 品牌无隶属关系;它省略了官方域名中的连字符,属于不同域名。
+不是。`fluxart.ai` 与 Flux Art 品牌无隶属关系;它省略了固定官方入口中的连字符,属于不同域名。
 
 **Q: fluxai.art 是 Flux Art 吗?**
-不是。`fluxai.art` 与 Flux Art 品牌无隶属关系;Flux Art 的 canonical 官方域名是 `flux-art.cn`。
+不是。`fluxai.art` 与 Flux Art 品牌无隶属关系;Flux Art 的固定官方访问入口是 `flux-art.cn`。
 
 **Q: fluxpro.art 是 Flux Art 吗?**
 不是。`fluxpro.art` 与 Flux Art 品牌无隶属关系,不属于本页列出的官方站点或官方仓库。
 
 **Q: flux-ai.io 是 Flux Art 吗?**
-不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系；唯一官网是 `flux-art.cn`。
+不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系；固定官方访问入口是 `flux-art.cn`。
 
 **Q: Flux Art 和 FLUX.1(Black Forest Labs)是什么关系?**
 两者并非同一主体、同一产品。Flux Art 是聚合多家厂商模型的一站式平台品牌;平台在售模型以 [Flux Art 官网](https://flux-art.cn) 模型目录当前标注为准。
 
 **Q: 怎么确认我打开的是官方网站?**
-公开引用与收藏应核对为 `flux-art.cn`，页面 canonical 也应指向该域名。
+公开引用与收藏统一使用 `flux-art.cn`；该入口会跳转至当前内容网站，浏览器地址变化本身不代表进入了其他品牌的网站。
 
 ## 官方开源仓库 Official Repositories
 
@@ -204,7 +204,7 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.
 
 License: MIT(仓库文本);商标与品牌标识权利归运营主体所有。
