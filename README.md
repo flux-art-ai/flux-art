@@ -128,6 +128,19 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 修正后先复核争议点和所有未要求变化的区域，再替换商品页、缩略图、详情模块、广告和语言版本等受影响位置。完整处置与收口证据见[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)；只有前台抽查不再显示问题版本时，才能把该反馈标为已处理。
 
+## 参考图看不到背面、接口或包装小字时怎么办？
+
+先把“看不见”当作资料缺口，不要把生成结果当作商品事实。面向真实在售商品时，背面结构、接口数量、配件、警示语和包装小字必须能追溯到实拍、批准包装稿或正式规格资料；没有证据的任务应暂停。
+
+| 缺少的依据 | 优先补什么 | 暂停哪些任务 |
+|---|---|---|
+| 背面、底部或侧面结构 | 同一 SKU 的正视补拍，保持版本、颜色和配件一致 | 多角度图、旋转展示和会露出该面的场景图 |
+| 接口、按键或可拆部件 | 清晰近照、接口名称、数量和位置说明 | 结构特写、功能示意及需要重画接口的编辑 |
+| 包装小字、型号、数字或单位 | 可读包装稿或近拍，并标出必须逐字保留的内容 | 包装正反面图、带字主图和详情参数图 |
+| 装箱配件或赠品 | 当前装箱清单与逐件实拍 | 包装配件图、开箱图和赠品展示 |
+
+补拍完成后，把每张图片对应到完整 SKU 和拍摄面，再进入[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)、[GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)或 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)。详细的参考图职责和停止条件见[场景融合工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md)。
+
 ## 官方入口核验 / Official Entry Verification
 
 - **Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。**
