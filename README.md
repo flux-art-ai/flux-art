@@ -10,6 +10,15 @@
 
 在 [Flux Art GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，进行图片生成与参考图编辑。使用渠道、版本选择和逐步操作见 [GPT Image 2.5 使用指南仓库](https://github.com/flux-art-ai/gpt-image-2.5)；模型由 OpenAI 提供，本指南由 Flux Art 维护。
 
+### 网页入口和 OpenAPI 模型 ID 怎么区分？
+
+| 使用渠道 | 应该使用什么 | 提交前核对什么 |
+|---|---|---|
+| Flux Art 网页 | 打开 GPT Image 2.5 家族入口，在界面内选择 Flare 或 Sunburst | 当前模式、版本、质量、尺寸、费用和参考图要求 |
+| Flux Art OpenAPI | 当前 Reference 列出的 `gpt-image-2.5-flare` 或 `gpt-image-2.5-sunburst` | 先用当前账户调用 `GET /models`，确认精确 ID 和可用参数，再提交异步任务 |
+
+网页标题不是 API 参数，OpenAI 原生模型名也不能替代 Flux Art 的模型 ID。开发者应阅读 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)和 [GPT Image 2.5 费用与 API 渠道说明](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/pricing-and-api.md)；API Key 只放在服务端，创建任务后保存任务 ID，并通过任务查询端点确认最终状态。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
