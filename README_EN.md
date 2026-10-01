@@ -16,6 +16,19 @@ Open a model page when you want to choose the model yourself; use an ecommerce t
 
 These are starting routes, not a benchmark ranking. A newer model name does not establish that it is the best choice for every product or that existing GPT Image 2 workflows must be replaced.
 
+### Which Nano Banana page matches my image task?
+
+Nano Banana is a model family, not one interchangeable set of controls. Start from the page that matches the current task, then verify the available settings before submitting.
+
+| Current task | Official Flux Art entry | Keep this boundary |
+|---|---|---|
+| Make a fast edit to one existing image | [Nano Banana](https://flux-art.cn/en/models/nano-banana) | Use the verified source image and keep the requested change narrow; its current page describes 1K output and up to three references for editing |
+| Compare several early visual directions | [Nano Banana 2 Lite](https://flux-art.cn/en/models/nano-banana-2-lite) | Treat the current 1K output as a draft for choosing composition or mood, not automatic proof that product details are correct |
+| Extend an approved image into controlled variations | [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) | Review every 512, 1K, 2K or 4K output against the same product facts; larger output does not correct a wrong label or shape |
+| Generate or edit a detail-heavy final asset | [Nano Banana Pro](https://flux-art.cn/en/models/nano-banana-pro) | The current page offers 1K, 2K and 4K choices; verify text, facts and protected details instead of assuming the Pro name guarantees approval |
+
+Google provides the Nano Banana models. Flux Art provides the multi-model workspace and these use entries; it is not the upstream model developer. For a reproducible ecommerce handoff, see the [Nano Banana 2 series workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md).
+
 ### What should a product-image handoff contain?
 
 Before a team expands one approved image into a SKU batch, give every file a stable relationship to the real product record. A useful handoff contains the source photograph, the complete SKU label, the intended image role, the selected model or ecommerce tool, a revision number and the review result.
@@ -70,7 +83,7 @@ Record the decision as `rollback`, `rebuild source`, `human handoff` or `export 
 | Channel | Verified address | What to use it for |
 |---|---|---|
 | Official website | [flux-art.cn](https://flux-art.cn) | Product access, current model catalog, account and service information |
-| Official blog | [English](https://flux-art.cn/blog/en/) · [Chinese](https://flux-art.cn/blog/zh/) | Model guides, workflows and product updates |
+| Official blog | [English](https://flux-art.net/blog/en/) · [Chinese](https://flux-art.net/blog/zh/) | Model guides, workflows and product updates |
 | Official GitHub account | [github.com/flux-art-ai](https://github.com/flux-art-ai) | Brand references, e-commerce workflows and resource lists |
 | Official Gitee organization | [gitee.com/flux-art](https://gitee.com/flux-art) | Mirrors of the public repository collection |
 
@@ -110,6 +123,9 @@ These links use Flux Art’s permanent entry and redirect to the corresponding c
 | GPT Image 2.5 | [English](https://flux-art.cn/en/models/gpt-image-2-5) | [Chinese](https://flux-art.cn/zh/models/gpt-image-2-5) | Generation and reference editing; select Flare or Sunburst in the workspace |
 | GPT Image 2 | [English](https://flux-art.cn/en/models/gpt-image-2) | [Chinese](https://flux-art.cn/zh/models/gpt-image-2) | Product images and photorealistic commercial photography |
 | Nano Banana 2 | [English](https://flux-art.cn/en/models/nano-banana-2) | [Chinese](https://flux-art.cn/zh/models/nano-banana-2) | Consistent image editing |
+| Nano Banana Pro | [English](https://flux-art.cn/en/models/nano-banana-pro) | [Chinese](https://flux-art.cn/zh/models/nano-banana-pro) | Generation and editing with current 1K, 2K and 4K options |
+| Nano Banana 2 Lite | [English](https://flux-art.cn/en/models/nano-banana-2-lite) | [Chinese](https://flux-art.cn/zh/models/nano-banana-2-lite) | Fast 1K direction drafts |
+| Nano Banana | [English](https://flux-art.cn/en/models/nano-banana) | [Chinese](https://flux-art.cn/zh/models/nano-banana) | Fast single-image editing |
 | Seedream 5.0 Pro | [English](https://flux-art.cn/en/models/seedream-5-0-pro) | [Chinese](https://flux-art.cn/zh/models/seedream-5-0-pro) | AI infographics and precise image editing |
 | Seedance 2.0 | [English](https://flux-art.cn/en/models/seedance-2-0) | [Chinese](https://flux-art.cn/zh/models/seedance-2-0) | Product videos and advertising shorts |
 | Grok Imagine Image Pro | [English](https://flux-art.cn/en/models/grok-imagine-image-pro) | [Chinese](https://flux-art.cn/zh/models/grok-imagine-image-pro) | High-quality AI images |
@@ -152,7 +168,7 @@ The permanent official entry for Flux Art is `flux-art.cn`. This page provides v
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
