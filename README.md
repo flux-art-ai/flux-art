@@ -204,6 +204,20 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 每张候选都要对照实拍检查左右方向、鞋头轮廓、后跟高度、鞋底纹路、鞋带孔或扣件数量、Logo、脚部遮挡、地面接触和阴影。任何画面都不能代替尺码表、楦型资料或真人试穿结论。完整步骤见[鞋履上脚与停止条件](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
 
+## AI 配饰试戴怎样避免大小、佩戴位置和遮挡出错？
+
+[AI 万戴](https://flux-art.cn/zh/ai-ecommerce/accessory-try-on)适合把真实配饰做成模特佩戴候选。当前页面可上传配饰图，选择 AI 或已获授权的自定义模特，并从帽子、眼镜、围巾/披肩、项链、耳饰、手表、手链、腰带、手提包、单肩/斜挎包等类型开始；还可选择人物属性、输出比例，并补充场景、造型或佩戴方式。
+
+| 配饰任务 | 生成前必须确认 | 交付前重点检查 |
+|---|---|---|
+| 眼镜、帽子 | 镜框或帽体的正面、侧面、尺寸依据与不可改变结构 | 镜腿、鼻托、帽檐、帽冠、耳部与头发遮挡是否对应 |
+| 项链、耳饰 | 链长、吊坠、耳饰成对关系、扣件与商品朝向 | 颈部或耳垂接触点、左右数量、比例和五金位置是否正确 |
+| 手表、手链 | 表盘、表冠、表带、链节、扣件与佩戴方向 | 腕部接触、表盘朝向、链节和扣件是否增删或变形 |
+| 腰带、包袋 | 带宽、扣头、孔位、提手、肩带、五金和目标佩戴方式 | 腰线、手提/单肩/斜挎路径、肩带穿行和人物遮挡是否自然 |
+| 围巾/披肩 | 面料纹理、边缘、长度、图案方向与目标系法 | 缠绕路径、垂坠、流苏和图案是否被复制、截断或镜像 |
+
+佩戴图只能表达造型和视觉关系，不能证明真实尺寸、重量、舒适性、适配范围或材质性能。候选整体通过而只有一个接触点有清晰实拍依据时，可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst 做限定编辑；如果配饰结构、比例或多个接触点同时错误，应回到真实商品图或重新生成，不在失败图上反复修补。完整证据表、提示词和停止条件见[配饰试戴工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
+
 ## 参考图看不到背面、接口或包装小字时怎么办？
 
 先把“看不见”当作资料缺口，不要把生成结果当作商品事实。面向真实在售商品时，背面结构、接口数量、配件、警示语和包装小字必须能追溯到实拍、批准包装稿或正式规格资料；没有证据的任务应暂停。
@@ -287,7 +301,7 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
