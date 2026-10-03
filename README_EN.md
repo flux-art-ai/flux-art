@@ -112,6 +112,16 @@ The [Flux Art AI Ecommerce workspace](https://flux-art.cn/en/ai-ecommerce) group
 - Product-image editing: [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone), [Product Retouch](https://flux-art.cn/en/ai-ecommerce/product-retouch), [Product Recolor](https://flux-art.cn/en/ai-ecommerce/product-recolor), [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background).
 - Apparel and try-on: [Outfit Image Set](https://flux-art.cn/en/ai-ecommerce/clothing-suite), [Model Wearing](https://flux-art.cn/en/ai-ecommerce/model-wearing), [Accessory Try-on](https://flux-art.cn/en/ai-ecommerce/accessory-try-on), [Model Pose Change](https://flux-art.cn/en/ai-ecommerce/model-pose-change), [Model Face Swap](https://flux-art.cn/en/ai-ecommerce/model-face-swap), [Shoe Try-on](https://flux-art.cn/en/ai-ecommerce/shoe-try-on).
 
+For model photography, choose by the input you already have instead of treating the three tools as interchangeable:
+
+| Starting material | Use this Flux Art entry | What must remain verifiable |
+|---|---|---|
+| A garment image that needs an on-model presentation | [Model Wearing](https://flux-art.cn/en/ai-ecommerce/model-wearing) | Garment style, color, material, neckline, cuffs, hem, pattern and occlusion |
+| An existing model image that needs a different pose | [Model Pose Change](https://flux-art.cn/en/ai-ecommerce/model-pose-change) | The same person, outfit and scene, plus plausible anatomy and garment deformation |
+| An existing model image and an authorized face reference | [Model Face Swap](https://flux-art.cn/en/ai-ecommerce/model-face-swap) | Permission for the face reference, identity boundary, pose, hair, styling and scene |
+
+Do not use a face-swap result to imply a real endorsement, and do not infer fit or sizing from a wearing image. The [English model-image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/09-model-photo.md) provides a staged review path when a project needs more than one of these operations.
+
 Use authorized product and portrait references, and review product details, text and anatomy before publication. These creation tools do not certify marketplace approval or real-world fit. See the [English workflow index](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README_EN.md) for the next steps.
 
 ## Official model pages
