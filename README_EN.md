@@ -45,13 +45,15 @@ Do not overwrite the source file with a generated result. A visually strong imag
 
 First identify whether the change affects the real product, the wording for one locale, or a channel's display requirement. A new translation alone does not make the product photograph obsolete, but it does invalidate every published derivative that still displays the old phrase.
 
+For a new market, prepare one localization packet before editing: the complete SKU and current product evidence, a reviewed text-free master, the target locale and approved copy, a glossary and do-not-translate list, the intended channel placement, and the reviewer. Use the same master for each locale rather than translating one finished language image into the next.
+
 | Change | What to locate | Next action |
 |---|---|---|
 | Revised approved term or claim in one market | That locale's listing images, thumbnails, [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) outputs, A+ modules and ads | Revise the defined text area; use [GPT Image 2.5](https://flux-art.cn/en/models/gpt-image-2-5) for a bounded image edit or a layout tool for exact dense copy. Recheck each placement. |
 | New packaging, variant or product specification | Every affected SKU and locale, including the source master | Verify the real product evidence before making a new master; a text-only edit cannot correct a changed product. |
 | New crop or format requirement without changed copy | Only the channel derivatives | Re-export from the approved language image, then inspect legibility and the live crop. |
 
-Keep the previous and replacement revision numbers, affected market and placement, reviewer, and a screenshot of the live replacement. The [localized image replacement workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md) gives a field-level checklist; model selection never replaces language or channel review.
+Keep the previous and replacement revision numbers, affected market and placement, reviewer, and a screenshot of the live replacement. The [English product-image localization workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/08-image-localization.md) gives the complete packet, prompt and release checks; the [Chinese workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md) covers the same production boundary. Model selection never replaces language or channel review.
 
 ### How should a rejected channel image be routed?
 
