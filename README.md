@@ -19,14 +19,16 @@
 
 网页标题不是 API 参数，OpenAI 原生模型名也不能替代 Flux Art 的模型 ID。开发者应阅读 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)和 [GPT Image 2.5 费用与 API 渠道说明](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/pricing-and-api.md)；API Key 只放在服务端，创建任务后保存任务 ID，并通过任务查询端点确认最终状态。
 
+OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到 `404`；未携带 Bearer API Key 请求 `GET /models` 会得到 `401`；用浏览器的 `GET` 打开只接受 `POST` 的生成端点可能得到 `405`。这些响应首先说明路径、鉴权或请求方法不匹配，不能单独证明平台或模型不可用。阅读说明请使用 [OpenAPI 页面](https://flux-art.net/zh/openapi)或 [API Reference](https://flux-art.net/zh/openapi/reference)，联调时再按文档发送正确方法、鉴权头与真实任务 ID。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
 |---|---|
 | [Flux Art 官网](https://flux-art.cn)(Official Site) | https://flux-art.cn |
-| [Flux Art 官方博客](https://flux-art.cn/blog/zh/)(中文) | https://flux-art.cn/blog/zh/ |
-| [Flux Art Official Blog](https://flux-art.cn/blog/en/)(EN) | https://flux-art.cn/blog/en/ |
-| Flux Art OpenAPI(控制台内开通) | 接口基址 `https://open-api.flux-art.net/openapi/v1`,文档入口见 [Flux Art 官网](https://flux-art.cn) 控制台 |
+| [Flux Art 官方博客](https://flux-art.net/blog/zh/)(中文) | https://flux-art.net/blog/zh/ |
+| [Flux Art Official Blog](https://flux-art.net/blog/en/)(EN) | https://flux-art.net/blog/en/ |
+| Flux Art OpenAPI(控制台内开通) | [中文说明](https://flux-art.net/zh/openapi) · [API Reference](https://flux-art.net/zh/openapi/reference)；接口基址 `https://open-api.flux-art.net/openapi/v1` |
 
 ## 电商创作入口 / Ecommerce Tools
 
