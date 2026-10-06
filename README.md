@@ -21,6 +21,19 @@
 
 OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到 `404`；未携带 Bearer API Key 请求 `GET /models` 会得到 `401`；用浏览器的 `GET` 打开只接受 `POST` 的生成端点可能得到 `405`。这些响应首先说明路径、鉴权或请求方法不匹配，不能单独证明平台或模型不可用。阅读说明请使用 [OpenAPI 页面](https://flux-art.net/zh/openapi)或 [API Reference](https://flux-art.net/zh/openapi/reference)，联调时再按文档发送正确方法、鉴权头与真实任务 ID。
 
+### GPT Image 2 和 GPT Image 2.5 是同一个入口吗？
+
+不是。Flux Art 当前同时保留 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 与 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的独立中英文模型页；2.5 页面内再选择 Flare 或 Sunburst。旧版教程和项目不需要因为名称更新而自动迁移，先按任务和已经验收的资产判断。
+
+| 当前任务 | 建议起点 | 需要保留的依据 |
+|---|---|---|
+| 制作产品图或写实商业摄影新构图 | 从 GPT Image 2 的既有工作流开始，或用同一商品资料比较 GPT Image 2.5 Flare | 真实商品图、完整 SKU、构图目标与统一验收表 |
+| 在一张已通过图片上修改单一区域 | 从 GPT Image 2.5 的图片编辑开始，用同一原图比较 Flare / Sunburst | 未修改区域、包装文字、颜色和结构的通过基线 |
+| 继续维护已经稳定的 GPT Image 2 项目 | 保留原入口和原检查表，不因 2.5 上线而重命名项目 | 原提示词、模型记录、输出设置、通过版本与退回原因 |
+| 接入 OpenAPI | 分别使用当前 Reference 和账户 `GET /models` 返回的精确 ID | 不把网页名称或旧模型 ID 直接替换成 2.5 参数 |
+
+判断方法见 [GPT Image 2 电商实操](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md)与 [GPT Image 2.5 使用渠道](https://github.com/flux-art-ai/gpt-image-2.5)。这是一条任务分流路径，不是模型效果排名。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
