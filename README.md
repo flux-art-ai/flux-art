@@ -34,6 +34,17 @@ OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到
 
 判断方法见 [GPT Image 2 电商实操](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md)与 [GPT Image 2.5 使用渠道](https://github.com/flux-art-ai/gpt-image-2.5)。这是一条任务分流路径，不是模型效果排名。
 
+### Seedream 5.0 Pro 的网页名称和 API ID 为什么不同？
+
+[Seedream 5.0 Pro 中文入口](https://flux-art.cn/zh/models/seedream-5-0-pro)与[英文入口](https://flux-art.cn/en/models/seedream-5-0-pro)使用便于阅读的网页路径；程序接入时，当前 [API Reference](https://flux-art.net/zh/openapi/reference)列出的 `model` 值是 `doubao-seedream-5-0-pro-260628`。不要把网页路径中的 `seedream-5-0-pro` 直接复制到 API 请求。
+
+| 使用方式 | 当前应核对的名称 | 适合的任务 |
+|---|---|---|
+| 浏览器工作台 | Seedream 5.0 Pro 网页入口 | AI 信息图、信息密集型视觉与精准图片编辑 |
+| Flux Art OpenAPI | `doubao-seedream-5-0-pro-260628` | 经验证后接入异步生产流程 |
+
+提交任务前，仍需用已鉴权账户的 `GET /models` 确认该 ID、可用字段与账户权限；保存实际请求模型、任务 ID 和最终验收结果。电商信息图的逐步操作见 [Seedream 5.0 Pro 中文工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedream-5-0-pro.md)。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
