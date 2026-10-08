@@ -45,6 +45,17 @@ OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到
 
 提交任务前，仍需用已鉴权账户的 `GET /models` 确认该 ID、可用字段与账户权限；保存实际请求模型、任务 ID 和最终验收结果。电商信息图的逐步操作见 [Seedream 5.0 Pro 中文工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedream-5-0-pro.md)。
 
+### Seedance 2.0 的网页入口和 OpenAPI ID 怎样对应？
+
+[Seedance 2.0 中文入口](https://flux-art.cn/zh/models/seedance-2-0)与[英文入口](https://flux-art.cn/en/models/seedance-2-0)用于浏览器创作；页面会把当前模型带入视频工作台。程序接入时，当前 [API Reference](https://flux-art.net/zh/openapi/reference)列出的 `model` 值是 `doubao-seedance-2-0-260128`，不要把网页路径中的 `seedance-2-0` 当作接口参数。
+
+| 使用方式 | 当前应核对的值 | 完成条件 |
+|---|---|---|
+| 浏览器工作台 | Seedance 2.0 模型页与当前界面设置 | 成片通过商品、镜头、文字、素材权利和发布要求检查 |
+| Flux Art OpenAPI | `doubao-seedance-2-0-260128` | 已鉴权 `GET /models` 确认账户可用性与字段，任务最终状态成功且成片验收通过 |
+
+接口创建任务或进入队列不等于视频已经完成。保存实际模型 ID、幂等键、任务 ID、最终状态和成片验收结果；电商视频的脚本与审核步骤见 [Seedance 2.0 商品短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-0.md)。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
