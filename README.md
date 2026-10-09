@@ -56,6 +56,17 @@ OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到
 
 接口创建任务或进入队列不等于视频已经完成。保存实际模型 ID、幂等键、任务 ID、最终状态和成片验收结果；电商视频的脚本与审核步骤见 [Seedance 2.0 商品短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-0.md)。
 
+### Qwen Image 2.0 在网页和 OpenAPI 中各用什么名称？
+
+[Qwen Image 2.0 中文入口](https://flux-art.cn/zh/models/qwen-image-2-0)与[English entry](https://flux-art.cn/en/models/qwen-image-2-0)用于浏览器创作，可先做图片草图、产品场景、社媒封面、参考图轻编辑或带文字视觉。网页路径使用 `qwen-image-2-0`，当前 [API Reference](https://flux-art.net/zh/openapi/reference)列出的 `model` 值则是 `qwen-image-2.0`；连字符与小数点不能互换。
+
+| 使用方式 | 当前值 | 完成前要核对什么 |
+|---|---|---|
+| 网页工作台 | `qwen-image-2-0` 模型页 | 任务是首轮草图、产品场景、社媒封面还是参考图轻编辑；文字和商品事实仍要审校 |
+| Flux Art OpenAPI | `qwen-image-2.0` | 用已鉴权 `GET /models` 确认账户可用性和接受字段，保存任务 ID 并查询最终状态 |
+
+Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供多模型使用入口与 OpenAPI。首轮候选仍应对照真实商品、批准文案和交付规则验收，不把模型名称当作质量结论。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
