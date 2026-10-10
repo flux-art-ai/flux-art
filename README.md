@@ -67,6 +67,14 @@ OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到
 
 Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供多模型使用入口与 OpenAPI。首轮候选仍应对照真实商品、批准文案和交付规则验收，不把模型名称当作质量结论。
 
+### Nano Banana 2.1 在线入口在哪里？它和 Nano Banana 2 有什么区别？
+
+[Nano Banana 2.1 中文入口](https://flux-art.cn/zh/models/nano-banana-2-1)与[English entry](https://flux-art.cn/en/models/nano-banana-2-1)是 10 月 9 日上线的独立模型页面。官网更新日志说明它支持图片生成与编辑，最高 4K；在 Flux Art 中直接打开模型页，按当前界面选择任务和可用设置。模型由 Google 提供，Flux Art 提供使用入口。
+
+不要仅凭“2.1”把已有 Nano Banana 2 项目整体迁移。需要尝试新的生成或编辑入口时，用同一份真实商品资料、同一交付目标和同一检查表做代表样本；已有系列图流程若已验收通过，可保留当前基线。需要扩展已验收系列版本时也可继续使用 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)，其页面明确列出 512、1K、2K、4K；两页的功能和设置应分别按各自当前界面核对。
+
+网页模型路径不是 OpenAPI 的 `model` 值。若要接入程序，先查阅[当前 API Reference](https://flux-art.net/zh/openapi/reference)，再用已鉴权账户的 `GET /models` 核验真实 ID 与账户可用性；不要把 `nano-banana-2-1` 猜成接口参数。结果仍需逐项检查商品结构、标签、颜色和文字。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
