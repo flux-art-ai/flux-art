@@ -94,6 +94,12 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### 爆款图片复刻：商品图与参考图怎么分工？
+
+[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)需要分别提供商品图和参考图：商品图用于保留真实商品主体，参考图用于借鉴获准使用的构图与视觉表达。进入页面后先确认两张图的用途，再按任务选择“构图”“均衡”或“高度”模式并设置输出比例；模式名称是页面选项，不代表相似度或成片质量保证。参考图中的商标、商品参数、优惠与其他事实不能直接移植到自己的商品图。英语用户可打开 [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone)。
+
+生成后先比对商品轮廓、颜色、标签和配件，再检查构图、边缘与文字。需要只改已验收图片中的一个明确区域时，可转到 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)工作台选择 Flare 或 Sunburst；若商品事实与参考素材相冲突，先暂停而不是靠多次生成猜答案。
+
 ## Flux Art 电商做图需要准备什么？
 
 开始生成前，先整理一份可核对的商品资料包，至少包含真实商品图、完整 SKU、包装原文、规格与单位、配件清单，以及有权使用的品牌和人物素材。不同交付物可从以下入口开始：
