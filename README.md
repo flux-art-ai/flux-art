@@ -75,6 +75,10 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 网页模型路径不是 OpenAPI 的 `model` 值。Flux Art 当前 [API Reference](https://flux-art.net/zh/openapi/reference) 已列出 Nano Banana 2.1 的 `model` ID：`gemini-nano-banana-2.1`；网页路径仍是 `nano-banana-2-1`。创建任务前，用已鉴权账户的 `GET /models` 核验该账户是否可用及实际接受字段，再按 Reference 构造请求。结果仍需逐项检查商品结构、标签、颜色和文字。
 
+### Nano Banana 2.1 的联网搜索能核验商品信息吗？
+
+不能把联网搜索当成商品资料来源。[Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)将网页搜索和图片搜索列为可选项，默认关闭；需要探索场景或视觉方向时，再按任务开启其中一项或两项。SKU、材质、尺寸、包装原文、价格、认证与配件清单仍以自己的实物、商品系统和已批准资料为准。记录本轮搜索设置，并在交付前对照真实商品复核图中事实；搜索开关不等于引用或事实核验。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
