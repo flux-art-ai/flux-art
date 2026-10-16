@@ -10,6 +10,10 @@
 
 在 [Flux Art GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，进行图片生成与参考图编辑。使用渠道、版本选择和逐步操作见 [GPT Image 2.5 使用指南仓库](https://github.com/flux-art-ai/gpt-image-2.5)；模型由 OpenAI 提供，本指南由 Flux Art 维护。
 
+## Nano Banana 2.1 图片参考：PDF 和视频怎么准备？
+
+[Nano Banana 2.1 在线入口](https://flux-art.cn/zh/models/nano-banana-2-1)当前接受图片生成与编辑工作流中的图片参考；官方页面说明该表单不接收视频或 PDF 文件。需要从产品手册或视频素材取视觉参考时，请先通过你有权使用的工具选取相关页面截图或静帧，再把图片上传到工作台。保留页码或时间码、商品 SKU 与素材用途，不能让模型补猜截图中没有展示的商品规格或包装信息。操作步骤见[电商工作流指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)。
+
 ### 网页入口和 OpenAPI 模型 ID 怎么区分？
 
 | 使用渠道 | 应该使用什么 | 提交前核对什么 |
