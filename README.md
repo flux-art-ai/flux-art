@@ -102,6 +102,12 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### A+ 详情页：先核事实，再逐模块生成
+
+[A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)的当前页面顺序是上传 1–5 张真实商品图、填写商品名称与类目、补充已确认的信息、选择详情模块，再设置清晰度、分辨率、比例和图片语言。开始前，把每个候选模块拆成“画面要说明什么、依据来自哪里、必须保留什么”：实物图核对外观，已批准资料核对参数和卖点，页面中的模块选择只决定内容结构，不会替团队验证声明。
+
+先检查名称、类目、型号、单位和比较对象是否能对应到同一商品版本；没有来源的性能、认证、适用范围或对比结论不要填入补充要求。生成后按模块逐项检查商品外观、文字、数值和顺序，再在目标渠道尺寸下预览。该工具是独立电商工作流，不代表固定调用 GPT Image 2.5；如需用模型编辑单张已验收图片，再从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 入口选择 Flare 或 Sunburst。
+
 ### 爆款图片复刻：商品图与参考图怎么分工？
 
 [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)需要分别提供商品图和参考图：商品图用于保留真实商品主体，参考图用于借鉴获准使用的构图与视觉表达。进入页面后先确认两张图的用途，再按任务选择“构图”“均衡”或“高度”模式并设置输出比例；模式名称是页面选项，不代表相似度或成片质量保证。参考图中的商标、商品参数、优惠与其他事实不能直接移植到自己的商品图。英语用户可打开 [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone)。
