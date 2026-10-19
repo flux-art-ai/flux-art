@@ -102,6 +102,10 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### AI 模特换脸：先明确两张输入图的角色
+
+[AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap)适用于已有模特图与单人面部参考的替换任务，不是生成服装上身图或改变姿势的入口。提交前确认两张图都可用于当前交付：模特图作为姿势、服装和场景基线，面部参考只用于目标面部；换脸后检查边界、肤色与光线衔接，并确认发型、服装、姿势和背景没有被无关改写。若素材权限不清楚、人物并非预期对象，或结果会造成未经授权的代言暗示，应停止交付。英语入口：[AI Model Face Swap](https://flux-art.cn/en/ai-ecommerce/model-face-swap)；完整操作见[模特图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
+
 ### A+ 详情页：先核事实，再逐模块生成
 
 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)的当前页面顺序是上传 1–5 张真实商品图、填写商品名称与类目、补充已确认的信息、选择详情模块，再设置清晰度、分辨率、比例和图片语言。开始前，把每个候选模块拆成“画面要说明什么、依据来自哪里、必须保留什么”：实物图核对外观，已批准资料核对参数和卖点，页面中的模块选择只决定内容结构，不会替团队验证声明。
