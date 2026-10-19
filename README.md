@@ -14,6 +14,8 @@
 
 [Nano Banana 2.1 在线入口](https://flux-art.cn/zh/models/nano-banana-2-1)当前接受图片生成与编辑工作流中的图片参考；官方页面说明该表单不接收视频或 PDF 文件。需要从产品手册或视频素材取视觉参考时，请先通过你有权使用的工具选取相关页面截图或静帧，再把图片上传到工作台。保留页码或时间码、商品 SKU 与素材用途，不能让模型补猜截图中没有展示的商品规格或包装信息。操作步骤见[电商工作流指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)。
 
+要在浏览器、OpenAPI 或自建 MCP 适配层之间选择入口，并核对网页路径与 API 模型 ID，请看 [Nano Banana 2.1 国内网页、API 与 MCP 使用指南](articles/nano-banana-2-1-access-and-mcp.md)。
+
 ### 网页入口和 OpenAPI 模型 ID 怎么区分？
 
 | 使用渠道 | 应该使用什么 | 提交前核对什么 |
