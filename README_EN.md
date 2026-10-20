@@ -25,9 +25,12 @@ Nano Banana is a model family, not one interchangeable set of controls. Start fr
 | Make a fast edit to one existing image | [Nano Banana](https://flux-art.cn/en/models/nano-banana) | Use the verified source image and keep the requested change narrow; its current page describes 1K output and up to three references for editing |
 | Compare several early visual directions | [Nano Banana 2 Lite](https://flux-art.cn/en/models/nano-banana-2-lite) | Treat the current 1K output as a draft for choosing composition or mood, not automatic proof that product details are correct |
 | Extend an approved image into controlled variations | [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) | Review every 512, 1K, 2K or 4K output against the same product facts; larger output does not correct a wrong label or shape |
+| Try the separate Nano Banana 2.1 generation or editing entry | [Nano Banana 2.1](https://flux-art.cn/en/models/nano-banana-2-1) | The current page lists generation and editing up to 4K; confirm the form's current settings before use |
 | Generate or edit a detail-heavy final asset | [Nano Banana Pro](https://flux-art.cn/en/models/nano-banana-pro) | The current page offers 1K, 2K and 4K choices; verify text, facts and protected details instead of assuming the Pro name guarantees approval |
 
 Google provides the Nano Banana models. Flux Art provides the multi-model workspace and these use entries; it is not the upstream model developer. For a reproducible ecommerce handoff, see the [Nano Banana 2 series workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md).
+
+For Nano Banana 2.1, the [channel guide](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md) distinguishes the Flux Art browser page, OpenAPI access and integrator-managed MCP adapters. The webpage slug and API model ID serve different purposes.
 
 ### What should a product-image handoff contain?
 
