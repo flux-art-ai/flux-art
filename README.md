@@ -104,6 +104,10 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+### 开始电商出图前，怎样核对积分预估？
+
+先按交付物选 [AI 电商工具](https://flux-art.cn/zh/ai-ecommerce)，确认图片数量、模型或工具、分辨率和清晰度，再查看当前工作台显示的费用预览。若选择 Auto quality，当前[价格说明](https://flux-art.net/pricing)写明会先按最高档预留，生成后退回未使用积分；不要把预留数当成最终扣费，也不要用旧截图推算今天能生成几张。完整的提交前预算与完成后核对步骤见[电商出图积分预检指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/11-credit-preflight.md)。
+
 ### AI 模特换脸：先明确两张输入图的角色
 
 [AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap)适用于已有模特图与单人面部参考的替换任务，不是生成服装上身图或改变姿势的入口。提交前确认两张图都可用于当前交付：模特图作为姿势、服装和场景基线，面部参考只用于目标面部；换脸后检查边界、肤色与光线衔接，并确认发型、服装、姿势和背景没有被无关改写。若素材权限不清楚、人物并非预期对象，或结果会造成未经授权的代言暗示，应停止交付。英语入口：[AI Model Face Swap](https://flux-art.cn/en/ai-ecommerce/model-face-swap)；完整操作见[模特图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
