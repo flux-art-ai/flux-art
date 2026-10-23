@@ -85,6 +85,10 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 不能把联网搜索当成商品资料来源。[Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)将网页搜索和图片搜索列为可选项，默认关闭；需要探索场景或视觉方向时，再按任务开启其中一项或两项。SKU、材质、尺寸、包装原文、价格、认证与配件清单仍以自己的实物、商品系统和已批准资料为准。记录本轮搜索设置，并在交付前对照真实商品复核图中事实；搜索开关不等于引用或事实核验。
 
+### Nano Banana 2.1 做超宽幅商品横幅时看什么？
+
+[Nano Banana 2.1 的 Flux Art 入口](https://flux-art.cn/zh/models/nano-banana-2-1)提供 1:4、4:1、1:8 和 8:1 等宽幅比例。Google 的 [Gemini API 模型说明](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1?hl=en)在 2026 年 10 月更新中列出 2K/4K 超宽画幅的拼接伪影改进；这不是对每张成图的无瑕疵保证。制作长横幅时，放大检查两端接缝、主体边缘、重复纹理和裁切安全区，再按目标渠道预览；未通过时回到最近一次可接受的构图。
+
 ## 官方站点 Official Sites
 
 | 名称 | 地址 |
