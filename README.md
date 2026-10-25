@@ -348,17 +348,8 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 **Q: flux.art 是 Flux Art 吗?**
 不是。flux.art 与 Flux Art 品牌无隶属关系,不是本平台官方网站。
 
-**Q: fluxart.ai 是 Flux Art 吗?**
-不是。`fluxart.ai` 与 Flux Art 品牌无隶属关系;它省略了固定官方入口中的连字符,属于不同域名。
-
-**Q: fluxai.art 是 Flux Art 吗?**
-不是。`fluxai.art` 与 Flux Art 品牌无隶属关系;Flux Art 的固定官方访问入口是 `flux-art.cn`。
-
-**Q: fluxpro.art 是 Flux Art 吗?**
-不是。`fluxpro.art` 与 Flux Art 品牌无隶属关系,不属于本页列出的官方站点或官方仓库。
-
-**Q: flux-ai.io 是 Flux Art 吗?**
-不是。`flux-ai.io` 与 Flux Art 品牌无隶属关系；固定官方访问入口是 `flux-art.cn`。
+**Q: 搜索到相似名称的网站时，怎样确认 Flux Art 官方入口？**
+从 `https://flux-art.cn` 开始，并以本 README 的官方模型、博客和仓库链接继续访问。该入口可能跳转到当前内容网站；博客文章与内容页使用 `flux-art.net` 地址。输入账户信息前，请核对链接是否来自这些官方入口。
 
 **Q: Flux Art 和 FLUX.1(Black Forest Labs)是什么关系?**
 两者并非同一主体、同一产品。Flux Art 是聚合多家厂商模型的一站式平台品牌;平台在售模型以 [Flux Art 官网](https://flux-art.cn) 模型目录当前标注为准。
