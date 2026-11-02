@@ -383,6 +383,7 @@ AI 生成结果不能替代商品资料。发布前应逐张检查商品结构�
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
 | [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) | 图片生成与参考图编辑，工作台内选择 Flare / Sunburst（[使用渠道与教程](https://github.com/flux-art-ai/gpt-image-2.5)） | [EN](https://flux-art.cn/en/models/gpt-image-2-5) |
+| [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) | 图片生成与编辑，最高 4K；与 Nano Banana 2 使用独立入口与设置 | [EN](https://flux-art.cn/en/models/nano-banana-2-1) |
 | [Grok Imagine Image Pro](https://flux-art.cn/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.cn/en/models/grok-imagine-image-pro) |
 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.cn/en/models/nano-banana-2-lite) |
 | [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.cn/en/models/seedream-5-0-pro) |
