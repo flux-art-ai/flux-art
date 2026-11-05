@@ -10,6 +10,10 @@
 
 在 [Flux Art GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，进行图片生成与参考图编辑。使用渠道、版本选择和逐步操作见 [GPT Image 2.5 使用指南仓库](https://github.com/flux-art-ai/gpt-image-2.5)；模型由 OpenAI 提供，本指南由 Flux Art 维护。
 
+## Seedance 2.5 商品视频入口
+
+需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
+
 ## Nano Banana 2.1 图片参考：PDF 和视频怎么准备？
 
 [Nano Banana 2.1 在线入口](https://flux-art.cn/zh/models/nano-banana-2-1)当前接受图片生成与编辑工作流中的图片参考；官方页面说明该表单不接收视频或 PDF 文件。需要从产品手册或视频素材取视觉参考时，请先通过你有权使用的工具选取相关页面截图或静帧，再把图片上传到工作台。保留页码或时间码、商品 SKU 与素材用途，不能让模型补猜截图中没有展示的商品规格或包装信息。操作步骤见[电商工作流指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)。
@@ -400,6 +404,7 @@ Flux Art 的[隐私政策](https://flux-art.net/privacy)说明，用户提示词
 | [HappyHorse 1.1](https://flux-art.cn/zh/models/happyhorse-1-1) | 电影感产品短片(视频) | [EN](https://flux-art.cn/en/models/happyhorse-1-1) |
 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) | 一致性图片编辑 | [EN](https://flux-art.cn/en/models/nano-banana-2) |
 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.cn/en/models/seedance-2-0) |
+| [Seedance 2.5](https://flux-art.cn/zh/models/seedance-2-5) | 商品图驱动的短视频、视频编辑与延长 | [EN](https://flux-art.cn/en/models/seedance-2-5) |
 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.cn/en/models/gpt-image-2) |
 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.cn/en/models/nano-banana) |
 | [Grok Video](https://flux-art.cn/zh/models/grok-video) | 概念短片与产品动态演示(视频) | [EN](https://flux-art.cn/en/models/grok-video) |
