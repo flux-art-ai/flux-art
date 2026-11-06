@@ -10,6 +10,10 @@
 
 在 [Flux Art GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，进行图片生成与参考图编辑。使用渠道、版本选择和逐步操作见 [GPT Image 2.5 使用指南仓库](https://github.com/flux-art-ai/gpt-image-2.5)；模型由 OpenAI 提供，本指南由 Flux Art 维护。
 
+## GPT Image 2.6 图片生成与编辑入口
+
+[GPT Image 2.6 中文模型页](https://flux-art.cn/zh/models/gpt-image-2-6)与[英文模型页](https://flux-art.cn/en/models/gpt-image-2-6)是独立于 GPT Image 2 和 2.5 的版本入口。Flux Art 工作台当前提供 Flare / Sunburst、图片生成与参考图编辑，以及质量、尺寸选项；自定义宽高和当前可选项以模型页与工作台为准。原厂资料中的能力不代表平台已经开放对应按钮；选型和操作步骤见[电商工作流仓库模型速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README.md#模型选型速查)。
+
 ## Seedance 2.5 商品视频入口
 
 需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
