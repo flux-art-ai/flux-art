@@ -14,6 +14,8 @@
 
 [GPT Image 2.6 中文模型页](https://flux-art.cn/zh/models/gpt-image-2-6)与[英文模型页](https://flux-art.cn/en/models/gpt-image-2-6)是独立于 GPT Image 2 和 2.5 的版本入口。Flux Art 工作台当前提供 Flare / Sunburst、图片生成与参考图编辑，以及质量、尺寸选项；自定义宽高和当前可选项以模型页与工作台为准。原厂资料中的能力不代表平台已经开放对应按钮；选型和操作步骤见[电商工作流仓库模型速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README.md#模型选型速查)。
 
+官方更新日志于 2026-11-06 增加了 GPT Image 2.6 的 GIF 动图与 SVG 矢量图生成。两种输出模式使用文字生成，不接收参考图；商品一致性要求高时，应改用静态图片编辑路径并逐项核对成品。GIF 帧数、间隔与尺寸，SVG 画幅和边长均有各自限制，具体范围见[模型页](https://flux-art.cn/zh/models/gpt-image-2-6)；按用途制作与验收可参考[GIF 与 SVG 工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)。
+
 ## Seedance 2.5 商品视频入口
 
 需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
