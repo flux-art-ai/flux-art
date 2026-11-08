@@ -28,6 +28,10 @@
 
 [Kling Image O1 中文入口](https://flux-art.cn/zh/models/kling-image-o1)与[English entry](https://flux-art.cn/en/models/kling-image-o1)适合需要把多张图片分别作为主体、商品、场景、风格或细节参考的生成与编辑任务。Flux Art 当前专题页显示最多 10 张参考图，并提供 1K / 2K 输出；提交前应按工作台当前选项配置，再逐张核对商品结构、标签、构图和未要求修改的区域。按图分配职责的操作步骤见[多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)。
 
+## Kling V3 Image 和 Kling V3 Omni Image 怎么选？
+
+[Kling V3 Image 中文入口](https://flux-art.cn/zh/models/kling-v3-image)与[English entry](https://flux-art.cn/en/models/kling-v3-image)提供单张参考图编辑路径；需要在一次静态图片任务中分配多张参考图角色时，可比较 [Kling V3 Omni Image 中文入口](https://flux-art.cn/zh/models/kling-v3-omni-image)与[English entry](https://flux-art.cn/en/models/kling-v3-omni-image)。Omni 页面当前列出最多 10 张参考图及 1K、2K、4K 输出；Flux Art 当前尚未开放该模型的 Image Series 组图模式。按电商商品、场景和风格参考图分工并逐张验收，见[参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-v3-omni-image.md)。
+
 ## 商品图局部圈选返修怎么做？
 
 Flux Art 更新日志介绍了参考图精细编辑入口：生成前可在图片上自由绘制、添加文字、箭头或形状标注，并可撤销重做。电商返修时，先圈出要处理的区域，再写清目标、必须保留的商品事实和不可改动区域；标注用于沟通编辑意图，不是像素级蒙版，也不保证区域外完全不变。按同一已验收原图逐轮检查边界、商品结构、标签与未修改内容，失败时回到最近通过的版本。步骤见[图片圈选编辑工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/12-fine-edit-annotations.md)。
