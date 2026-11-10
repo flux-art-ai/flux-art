@@ -124,6 +124,8 @@ Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列，Flux Art 提供�
 
 面向 Etsy 上架时，先核对该平台当前的商品图片要求，再决定哪些素材适合进入 AI 编辑。Etsy 的要求与其他渠道不可互相替代；操作步骤见 [Etsy 商品图片与 AI 辅助编辑检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md)。
 
+Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含写实且完全由 AI 生成的人物，按 Amazon 当前说明在上传前添加 `contains-synthetic-performer` 元数据；真实人物经 AI 编辑、非写实人物或不含人物的图片不适用这一标签。先区分素材类型，再从[AI 模特图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)或[合规清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)核对操作，勿将 Amazon 规则外推到其他渠道。
+
 从 [Flux Art AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)按交付任务进入工具，而不是先猜模型名称：
 
 - 上架内容：[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)、[A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)、[SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)。
