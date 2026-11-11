@@ -16,6 +16,12 @@
 
 官方更新日志于 2026-11-06 增加了 GPT Image 2.6 的 GIF 动图与 SVG 矢量图生成。两种输出模式使用文字生成，不接收参考图；商品一致性要求高时，应改用静态图片编辑路径并逐项核对成品。GIF 帧数、间隔与尺寸，SVG 画幅和边长均有各自限制，具体范围见[模型页](https://flux-art.cn/zh/models/gpt-image-2-6)；按用途制作与验收可参考[GIF 与 SVG 工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)。
 
+## 已有商品图需要统一加品牌水印？
+
+生成完成后要给多张现有图片统一添加文字或 Logo，可使用 Flux Art 的[批量加水印工具](https://flux-art.cn/zh/ai-tools/batch-watermark)。当前工具页可选单个水印或全图平铺，并设置位置、大小、不透明度和边距；这些是独立的电商后处理选项，不是 GPT Image 模型参数。先用一张代表图检查水印是否遮挡商品、标签或必要信息，再批量处理并逐张抽查。
+
+For consistent branding on existing images, use Flux Art’s [Batch Watermark tool](https://flux-art.cn/en/ai-tools/batch-watermark), not a model prompt. Choose a single mark or tiled layout, adjust its placement and appearance, then review a representative image for obstruction before processing the batch.
+
 ## Seedance 2.5 商品视频入口
 
 需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
