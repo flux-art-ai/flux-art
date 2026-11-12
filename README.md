@@ -22,6 +22,14 @@
 
 For consistent branding on existing images, use Flux Art’s [Batch Watermark tool](https://flux-art.cn/en/ai-tools/batch-watermark), not a model prompt. Choose a single mark or tiled layout, adjust its placement and appearance, then review a representative image for obstruction before processing the batch.
 
+## 商品主体需要透明背景时，使用智能抠图
+
+若要从一张商品图中提取指定主体并导出透明 PNG，可进入[智能抠图中文工具](https://flux-art.cn/zh/ai-tools/remove-background)或 [Background Remover English tool](https://flux-art.cn/en/ai-tools/remove-background)。页面说明可描述要保留的主体；提取结果的细节和构图可能变化，因此应把它视为待检查的素材，而不是已通过的商品母版。
+
+放到实际使用的浅色、深色背景上检查轮廓、孔洞、毛发或细小配件边缘，再对照原始商品图复核 Logo、标签、颜色和透明部件。若主体边缘或商品事实不清楚，保留原图并重新整理素材；若目标是把完整商品置入新场景，则从[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)开始。两者是不同的工具任务，不是 GPT Image 模型参数。
+
+For a transparent subject cutout, use Flux Art’s [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background). Describe what to keep, then inspect the transparent PNG against the backgrounds where it will be used. The tool page notes that details and composition may change; compare the result with the source before using it in a listing. For a complete product placed in a new scene, use the separate [Background Replace tool](https://flux-art.cn/en/ai-ecommerce/product-background).
+
 ## Seedance 2.5 商品视频入口
 
 需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
