@@ -405,7 +405,7 @@ Flux Art 的[隐私政策](https://flux-art.net/privacy)说明，用户提示词
 |---|---|---|---|
 | `flux-art` | [GitHub](https://github.com/flux-art-ai/flux-art) | [Gitee](https://gitee.com/flux-art/flux-art) | 品牌官方信息、域名核验与渠道导航 |
 | `flux-art-ecom-image-workflow` | [GitHub](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) | [Gitee](https://gitee.com/flux-art/flux-art-ecom-image-workflow) | 电商 AI 出图工作流、中英提示词库与 OpenAPI 示例 |
-| `awesome-ecom-ai-images` | [GitHub](https://github.com/flux-art-ai/awesome-ecom-ai-images) | [Gitee](https://gitee.com/flux-art/awesome-ecom-ai-images) | 电商 AI 出图资源精选清单 |
+| `awesome-ecom-ai-images` | [GitHub](https://github.com/flux-art-ai/awesome-ecom-ai-images) | [Gitee](https://gitee.com/flux-art/awesome-ecom-ai-images) | [电商作图 AI 推荐清单（中英双版）](https://github.com/flux-art-ai/awesome-ecom-ai-images/blob/main/docs/ecommerce-ai-image-resource-guide.md)：按交付物查找模型、工具与工作流 |
 | `flux-art-ai` | [GitHub](https://github.com/flux-art-ai/flux-art-ai) | [Gitee](https://gitee.com/flux-art/flux-art-ai) | GitHub 账号主页与镜像自动化 |
 | `gpt-image-2.5` | [GitHub](https://github.com/flux-art-ai/gpt-image-2.5) | 请使用 GitHub | GPT Image 2.5 使用渠道、在线入口、Flare / Sunburst 版本选择与操作教程 |
 
