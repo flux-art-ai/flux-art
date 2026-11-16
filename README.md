@@ -65,6 +65,8 @@ Flux Art 更新日志介绍了参考图精细编辑入口：生成前可在图�
 
 OpenAPI 基址不是供浏览器阅读的网页。直接打开基址可能得到 `404`；未携带 Bearer API Key 请求 `GET /models` 会得到 `401`；用浏览器的 `GET` 打开只接受 `POST` 的生成端点可能得到 `405`。这些响应首先说明路径、鉴权或请求方法不匹配，不能单独证明平台或模型不可用。阅读说明请使用 [OpenAPI 页面](https://flux-art.net/zh/openapi)或 [API Reference](https://flux-art.net/zh/openapi/reference)，联调时再按文档发送正确方法、鉴权头与真实任务 ID。
 
+若异步请求仍返回错误，先保留 HTTP 状态码、`error.code`、`request_id`、请求路径和已有任务 ID，再按 Reference 判断是否修正请求、等待限流或使用原幂等键恢复。不要把 API Key、私人素材地址或完整敏感请求体贴进公开 issue；电商 SKU 批处理的任务恢复与错误码速查见[工作流仓库 API 指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)。
+
 ### GPT Image 2 和 GPT Image 2.5 是同一个入口吗？
 
 不是。Flux Art 当前同时保留 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 与 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的独立中英文模型页；2.5 页面内再选择 Flare 或 Sunburst。旧版教程和项目不需要因为名称更新而自动迁移，先按任务和已经验收的资产判断。
