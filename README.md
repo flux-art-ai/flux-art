@@ -32,6 +32,14 @@ For consistent branding on existing images, use Flux Art’s [Batch Watermark to
 
 For a transparent subject cutout, use Flux Art’s [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background). Describe what to keep, then inspect the transparent PNG against the backgrounds where it will be used. The tool page notes that details and composition may change; compare the result with the source before using it in a listing. For a complete product placed in a new scene, use the separate [Background Replace tool](https://flux-art.cn/en/ai-ecommerce/product-background).
 
+## 商品照片里有路人或杂物时，先用智能消除
+
+需要从现有画面中移除一个干扰物并补全周围背景，可使用[智能消除中文工具](https://flux-art.cn/zh/ai-tools/object-remover)或 [Object Remover English tool](https://flux-art.cn/en/ai-tools/object-remover)。上传原图、涂抹要移除的物体；补充要求可留空，也可说明要保留的相邻对象。官网示例是“移除花束，保留花瓶”。工具会尝试补全背景，结果仍须检查。
+
+这和智能抠图、换背景不是同一目标：智能消除去掉局部干扰物；智能抠图提取要保留的主体并输出透明 PNG；一键换背景则把完整商品带入新场景。处理商品图时核对被涂抹区域是否遮住商品边缘、标签、反光或配件；如果商品结构被重建或缺乏原图证据，保留原图，不把候选图当作真实商品依据。
+
+For an unwanted passerby or prop in an existing image, use Flux Art’s [Object Remover](https://flux-art.cn/en/ai-tools/object-remover): upload the source, brush over the object, and optionally describe what nearby item must remain. It attempts to fill the surrounding background, so inspect the repaired area against the original. This differs from extracting a subject to transparent PNG or moving the complete product into a new scene. Do not use a reconstructed product detail as evidence of the real item.
+
 ## Seedance 2.5 商品视频入口
 
 需要把商品图转成动态展示或制作产品短片时，可从 [Seedance 2.5 中文模型页](https://flux-art.cn/zh/models/seedance-2-5)或[英文模型页](https://flux-art.cn/en/models/seedance-2-5)进入视频工作台。它是独立的视频模型入口，不是 GPT Image 2.5 的图片生成选项；按任务选择文本、首帧、首尾帧、参考素材、视频编辑或视频延长等当前可用路径。商品素材准备、镜头设计与发布前验收见[Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)，时长、分辨率和其他设置以工作台实时显示为准。
