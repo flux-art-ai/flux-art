@@ -16,6 +16,10 @@
 
 官方更新日志于 2026-11-06 增加了 GPT Image 2.6 的 GIF 动图与 SVG 矢量图生成。两种输出模式使用文字生成，不接收参考图；商品一致性要求高时，应改用静态图片编辑路径并逐项核对成品。GIF 帧数、间隔与尺寸，SVG 画幅和边长均有各自限制，具体范围见[模型页](https://flux-art.cn/zh/models/gpt-image-2-6)；按用途制作与验收可参考[GIF 与 SVG 工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)。
 
+发布前还要单独核对目标渠道是否接受 GIF 或 SVG、是否会转换格式，以及展示位对尺寸和动画的限制。若渠道只接受静态图，或未确认动图播放方式，就保留一张已验收的静态备份；不要把“工作台能生成”当成“商品列表或广告位一定支持”。商品细节、包装文字和宣传信息仍以真实资料核验。
+
+Before publishing, separately confirm whether the destination accepts GIF or SVG, converts the file, or limits animation and dimensions. Keep an approved static fallback if support is unclear; workspace output does not establish acceptance by a listing or ad placement. Verify product details and packaging copy against source materials.
+
 模型页列出某项工作台能力，不等于 OpenAPI 已提供相同格式或参数。程序接入 GIF、SVG 或其他新输出时，先核对 [OpenAPI Reference](https://flux-art.net/zh/openapi/reference)和已鉴权账户的 `GET /models`；不要从网页模型名推导 API `model` ID，也不要自行增加格式字段。
 
 ## 已有商品图需要统一加品牌水印？
