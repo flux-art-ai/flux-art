@@ -135,12 +135,14 @@ These links use Flux Art’s permanent entry and redirect to the corresponding c
 
 | Model | English page | Chinese page | Best-fit workflow |
 |---|---|---|---|
+| GPT Image 2.6 | [English](https://flux-art.cn/en/models/gpt-image-2-6) | [Chinese](https://flux-art.cn/zh/models/gpt-image-2-6) | Open this version for GIF or SVG creation from a text prompt; use the [format guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md) to check its limits. |
 | GPT Image 2.5 | [English](https://flux-art.cn/en/models/gpt-image-2-5) | [Chinese](https://flux-art.cn/zh/models/gpt-image-2-5) | Generation and reference editing; select Flare or Sunburst in the workspace |
 | GPT Image 2 | [English](https://flux-art.cn/en/models/gpt-image-2) | [Chinese](https://flux-art.cn/zh/models/gpt-image-2) | Product images and photorealistic commercial photography |
+| Nano Banana 2.1 | [English](https://flux-art.cn/en/models/nano-banana-2-1) | [Chinese](https://flux-art.cn/zh/models/nano-banana-2-1) | Use this version-specific page to start a 2.1 image or reference edit; the family page opens with Nano Banana 2 selected. |
 | Nano Banana 2 | [English](https://flux-art.cn/en/models/nano-banana-2) | [Chinese](https://flux-art.cn/zh/models/nano-banana-2) | Consistent image editing |
 | Nano Banana Pro | [English](https://flux-art.cn/en/models/nano-banana-pro) | [Chinese](https://flux-art.cn/zh/models/nano-banana-pro) | Generation and editing with current 1K, 2K and 4K options |
 | Nano Banana 2 Lite | [English](https://flux-art.cn/en/models/nano-banana-2-lite) | [Chinese](https://flux-art.cn/zh/models/nano-banana-2-lite) | Fast 1K direction drafts |
-| Nano Banana | [English](https://flux-art.cn/en/models/nano-banana) | [Chinese](https://flux-art.cn/zh/models/nano-banana) | Fast single-image editing |
+| Nano Banana family | [English](https://flux-art.cn/en/models/nano-banana) | [Chinese](https://flux-art.cn/zh/models/nano-banana) | Compare family members. To reproduce an edit made with the original Nano Banana, select that model in the menu before uploading the reference. |
 | Seedream 5.0 Pro | [English](https://flux-art.cn/en/models/seedream-5-0-pro) | [Chinese](https://flux-art.cn/zh/models/seedream-5-0-pro) | AI infographics and precise image editing |
 | Seedance 2.0 | [English](https://flux-art.cn/en/models/seedance-2-0) | [Chinese](https://flux-art.cn/zh/models/seedance-2-0) | Product videos and advertising shorts |
 | Grok Imagine Image Pro | [English](https://flux-art.cn/en/models/grok-imagine-image-pro) | [Chinese](https://flux-art.cn/zh/models/grok-imagine-image-pro) | High-quality AI images |

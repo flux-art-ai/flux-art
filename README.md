@@ -440,6 +440,7 @@ Flux Art 的[隐私政策](https://flux-art.net/privacy)说明，用户提示词
 
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
+| [GPT Image 2.6](https://flux-art.cn/zh/models/gpt-image-2-6) | 用文字生成 GIF 或 SVG 时从此进入；已有商品图的参考编辑与这两种输出模式分开，见[格式与用法](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)。 | [EN](https://flux-art.cn/en/models/gpt-image-2-6) |
 | [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) | 图片生成与参考图编辑，工作台内选择 Flare / Sunburst（[使用渠道与教程](https://github.com/flux-art-ai/gpt-image-2.5)） | [EN](https://flux-art.cn/en/models/gpt-image-2-5) |
 | [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) | 图片生成与编辑，最高 4K；与 Nano Banana 2 使用独立入口与设置 | [EN](https://flux-art.cn/en/models/nano-banana-2-1) |
 | [Grok Imagine Image Pro](https://flux-art.cn/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.cn/en/models/grok-imagine-image-pro) |
@@ -450,7 +451,7 @@ Flux Art 的[隐私政策](https://flux-art.net/privacy)说明，用户提示词
 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.cn/en/models/seedance-2-0) |
 | [Seedance 2.5](https://flux-art.cn/zh/models/seedance-2-5) | 商品图驱动的短视频、视频编辑与延长 | [EN](https://flux-art.cn/en/models/seedance-2-5) |
 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.cn/en/models/gpt-image-2) |
-| [Nano Banana](https://flux-art.cn/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.cn/en/models/nano-banana) |
+| [Nano Banana 家族](https://flux-art.cn/zh/models/nano-banana) | 家族页默认选中 Nano Banana 2。要复现初代的编辑，请先在模型菜单切换；要指定 2.1，直接用上方 2.1 专页。 | [EN](https://flux-art.cn/en/models/nano-banana) |
 | [Grok Video](https://flux-art.cn/zh/models/grok-video) | 概念短片与产品动态演示(视频) | [EN](https://flux-art.cn/en/models/grok-video) |
 
 ---
