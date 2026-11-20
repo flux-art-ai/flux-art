@@ -36,6 +36,10 @@ For consistent branding on existing images, use Flux Art’s [Batch Watermark to
 
 For a transparent subject cutout, use Flux Art’s [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background). Describe what to keep, then inspect the transparent PNG against the backgrounds where it will be used. The tool page notes that details and composition may change; compare the result with the source before using it in a listing. For a complete product placed in a new scene, use the separate [Background Replace tool](https://flux-art.cn/en/ai-ecommerce/product-background).
 
+**白色商品要交白底主图，还是要留一张可复用的透明图？** 只交一张白底图，可先用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)并检查成品。若同一个白杯还要放进深色横幅，先用[智能抠图](https://flux-art.cn/zh/ai-tools/remove-background)准备透明素材；杯口和杯把在浅、深两种底色下均完整，才把它作为可复用的母版。[白底工作流与边缘排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md)。
+
+For a single white-background delivery, start with [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background). If the same white mug will also appear on a dark banner, start with an inspected transparent cutout instead. Finish and review each background separately.
+
 ## 商品照片里有路人或杂物时，先用智能消除
 
 需要从现有画面中移除一个干扰物并补全周围背景，可使用[智能消除中文工具](https://flux-art.cn/zh/ai-tools/object-remover)或 [Object Remover English tool](https://flux-art.cn/en/ai-tools/object-remover)。上传原图、涂抹要移除的物体；补充要求可留空，也可说明要保留的相邻对象。官网示例是“移除花束，保留花瓶”。工具会尝试补全背景，结果仍须检查。
