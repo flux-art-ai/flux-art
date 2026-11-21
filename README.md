@@ -168,6 +168,8 @@ Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+**该做新模块，还是修已有详情图？** 新的卖点或参数模块从 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) / [A+ Content](https://flux-art.cn/en/ai-ecommerce/a-plus-content) 起稿；如果已核准原图的小字清楚，只在手机商品页上模糊，先走[详情图小字排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品详情图小字模糊是原稿导出还是页面问题)。这时要核对的是已交付文件和页面，不必重做整套图。
+
 ### 开始电商出图前，怎样核对积分预估？
 
 先按交付物选 [AI 电商工具](https://flux-art.cn/zh/ai-ecommerce)，确认图片数量、模型或工具、分辨率和清晰度，再查看当前工作台显示的费用预览。若选择 Auto quality，当前[价格说明](https://flux-art.net/pricing)写明会先按最高档预留，生成后退回未使用积分；不要把预留数当成最终扣费，也不要用旧截图推算今天能生成几张。完整的提交前预算与完成后核对步骤见[电商出图积分预检指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/11-credit-preflight.md)。
