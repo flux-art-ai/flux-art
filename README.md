@@ -168,6 +168,8 @@ Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含�
 
 素材应具备使用权限，生成后仍需核对商品与人物细节。选择方法见[电商工具与交付检查指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)；英语用户可进入 [AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)。
 
+**要做商品尺寸图？** 在[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) / [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite)选择规格尺寸图起稿；若手头已经有核准实物视图，直接叠加尺寸线更合适。按[商品尺寸图指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/product-dimension-image.md)决定是标商品本体、内腔还是发货外箱。
+
 **该做新模块，还是修已有详情图？** 新的卖点或参数模块从 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) / [A+ Content](https://flux-art.cn/en/ai-ecommerce/a-plus-content) 起稿；如果已核准原图的小字清楚，只在手机商品页上模糊，先走[详情图小字排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品详情图小字模糊是原稿导出还是页面问题)。这时要核对的是已交付文件和页面，不必重做整套图。
 
 ### 开始电商出图前，怎样核对积分预估？
