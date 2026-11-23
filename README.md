@@ -192,6 +192,8 @@ Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含�
 
 生成后先比对商品轮廓、颜色、标签和配件，再检查构图、边缘与文字。需要只改已验收图片中的一个明确区域时，可转到 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)工作台选择 Flare 或 Sunburst；若商品事实与参考素材相冲突，先暂停而不是靠多次生成猜答案。
 
+如果参考照片里也有一件商品，先判断你究竟要借什么：只要台面、背景色或窗光，可用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background) / [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background)的文字路径；必须借用机位与摆放位置时，再准备去掉无关商品后仍能说明构图的参考。见[场景参考图的裁切与选用](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md#场景参考图里有另一件商品怎么办)。
+
 ## Flux Art 电商做图需要准备什么？
 
 开始生成前，先整理一份可核对的商品资料包，至少包含真实商品图、完整 SKU、包装原文、规格与单位、配件清单，以及有权使用的品牌和人物素材。不同交付物可从以下入口开始：
