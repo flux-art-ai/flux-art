@@ -198,6 +198,8 @@ Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含�
 
 开始生成前，先整理一份可核对的商品资料包，至少包含真实商品图、完整 SKU、包装原文、规格与单位、配件清单，以及有权使用的品牌和人物素材。不同交付物可从以下入口开始：
 
+商品主图左右翻转时，先找同一 SKU、同一视角的原片，比对标签与一个不对称部件。整张图都反了，就恢复原片或用图像编辑器纠正方向；只有包装字反了，不要翻整张图。排查见[商品主图方向与包装文字](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md#商品主图左右翻转了怎么修)；需要重做构图时，再使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) / [English workspace](https://flux-art.cn/en/models/gpt-image-2)。
+
 | 当前任务 | 使用入口 | 先核对的资料 |
 |---|---|---|
 | 包装带字图、促销视觉或现有海报改字 | [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)；工作台内选择 Flare 或 Sunburst | 包装原文、标题、数字、单位与禁止改写项；参见[文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
