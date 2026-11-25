@@ -203,6 +203,7 @@ Amazon 的人物合成图片有单独的元数据披露步骤：若图片包含�
 | 当前任务 | 使用入口 | 先核对的资料 |
 |---|---|---|
 | 包装带字图、促销视觉或现有海报改字 | [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)；工作台内选择 Flare 或 Sunburst | 包装原文、标题、数字、单位与禁止改写项；参见[文字与版式教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md) |
+| 同一件商品的正、背、侧面展示 | [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) / [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) | 从同一 SKU 的实拍选主视角，其余角度做后续展示；如果实际卖多件，先核对装箱清单，再决定是否同框。见[多角度图验收](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品多角度拼图怎样避免看成多件套) |
 | 多个颜色、容量或规格版本 | [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | 每个完整 SKU 对应的商品图、颜色、规格和标签 |
 | 详情页卖点、参数和模块图 | [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) | 已核实卖点、参数来源与页面模块；参见[详情页工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md) |
 
