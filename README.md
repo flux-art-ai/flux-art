@@ -42,6 +42,8 @@ For a single white-background delivery, start with [Background Replace](https://
 
 透明商品换背景时，先确认要的是一张新场景成品，还是一份供其他画面复用的透明素材。透明 PNG 只说明文件支持透明区域；玻璃瓶身仍可能带着原桌面的纹理。用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background) / [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background)试做新场景后，在目标背景上分别检查瓶内透景、标签与边缘。若旧纹理与玻璃细节分不清，优先补拍。[透明商品换背景验收](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md#透明商品换背景后瓶身还看得到旧背景怎么办)。
 
+**透明 PNG 上传后变黑，先检查文件，还是重新抠图？** 把实际上传的文件放在白色和任意明显不同的底色上：背景跟着变，先查查看器或页面；背景始终是一个黑矩形，回到保存透明度的母版重新导出。若目标渠道要求固定白底，单独导出白底稿，不覆盖透明母版。[透明 PNG 黑底排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/01-white-background.md#透明-png-上传后变黑怎么排查)。
+
 ## 商品照片里有路人或杂物时，先用智能消除
 
 需要从现有画面中移除一个干扰物并补全周围背景，可使用[智能消除中文工具](https://flux-art.cn/zh/ai-tools/object-remover)或 [Object Remover English tool](https://flux-art.cn/en/ai-tools/object-remover)。上传原图、涂抹要移除的物体；补充要求可留空，也可说明要保留的相邻对象。官网示例是“移除花束，保留花瓶”。工具会尝试补全背景，结果仍须检查。
